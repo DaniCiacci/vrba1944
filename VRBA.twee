@@ -1,0 +1,2049 @@
+:: StoryTitle
+VRBA
+
+
+:: StoryData
+{
+  "ifid": "F11CC8B4-4320-4E8E-AF6B-648C55E84366",
+  "format": "Harlowe",
+  "format-version": "3.3.9",
+  "start": "Inizio",
+  "zoom": 0.3
+}
+
+
+:: \ "Inizio 2" {"position":"400,25","size":"100,100"}
+Leggere il futuro è impossibile, prevederlo è complicato e non sempre efficace.
+
+Non bisogna cercare la sfera di cristallo che chiarisca ogni nostro dubbio, ma capire come oggi noi prendiamo le decisioni di tutti i giorni e ragionare su come potremmo farlo in futuro. 
+
+Fortunatamente, molti intellettuali, studiosi, scienziati, psicologi e imprenditori hanno affrontato il tema in maniera ampia e dettagliata (se ti interessa, i parametri usati per costruire questa storia interattiva sono tratti dai libri di (link-rerun:"Alessandro Cravera")[(open-url:"https://www.linkedin.com/in/alessandrocravera/?originalSubdomain=it")] e di (link-rerun:"Alberto Gandolfi")[(open-url:"https://www.google.com/search?q=alberto+gandolfi&gs_lcrp=EgZjaHJvbWUqCggAEAAY4wIYgAQyCggAEAAY4wIYgAQyBwgBEC4YgAQyBwgCEAAYgAQyEAgDEC4YrwEYxwEYgAQYjgUyBwgEEAAYgAQyCAgFEAAYFhgeMggIBhAAGBYYHjIICAcQABgWGB4yCAgIEAAYFhgeMggICRAAGBYYHtIBCDI0NTRqMWo0qAIAsAIB&sourceid=chrome&ie=UTF-8&si=ACC90nyLlcElEvb2bNLvGYvz3qiApD3aAOLormvwt_GR8ukcU4_mCczcYEi-eGrQtqDF_9_VC93LJN1mNwhtTWwgFpivGtWLM7RybTayzwd2pNXzvtjxgxU%3D&ictx=1&ved=2ahUKEwjDgr6Zl8WKAxUk_rsIHXiMLwAQ_coHegQIJBAB
+")]).
+
+In ''VRBA1944'' sarai messo davanti a scelte difficili, che sembrano non avere una risposta corretta (e alle volte è davvero così) e che in ogni caso avranno ripercussioni sia sul corso della storia, sia sul suo finale. In pratica: la storia seguità le tue decisioni. Pertanto, la tua storia sarà diversa da quella del tuo compagno di classe e da quella che tu stesso potrai fare domani o dopodomani (chiaramente, prendendo scelte diverse). Alcune scelte, invece, ti verranno poste in maniera totalmente casuale. D'altronde, anche la vita è così: gli imprevisti capitano anche se cerchi di evitarli.
+
+Immagino che a questo punto tu voglia (colour: "red")[[sapere le regole del gioco-> Inizio 3]].
+
+
+:: \ 13.A {"position":"1850,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">](set: $13A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Ti senti sempre più vicino alla fuga]].
+
+(colour: "red")[[No, vorrei pensarci ancora->È una tenaglia]].
+
+
+:: \ 13.B {"position":"2025,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">](set: $13B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Ti senti sempre più vicino alla fuga]].
+
+(colour: "red")[[No, vorrei pensarci ancora->È una tenaglia]].
+
+
+:: \ 13.C {"position":"2200,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Ti senti sempre più vicino alla fuga]].
+
+(colour: "red")[[No, vorrei pensarci ancora->È una tenaglia]].
+
+
+:: \ 6.A {"position":"750,2900","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cane.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Cane]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Tu e Wetzler siete ancora insieme]].
+
+
+:: \ 6.B {"position":"925,2900","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cane.png">](set: $6B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Cane]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Tu e Wetzler siete ancora insieme]].
+
+
+:: \ 6.C {"position":"1100,2900","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cane.png">](set: $6C to 1)
+(set: $Allerta3 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Cane]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Tu e Wetzler siete ancora insieme]].
+
+
+:: \ 7.A {"position":"1300,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie2.png">]
+(set: $Allerta4 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->corri più veloce che puoi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso anche tu vieni con noi]].
+
+
+:: \ 7.B {"position":"1475,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie2.png">](set: $7B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->corri più veloce che puoi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso anche tu vieni con noi]].
+
+
+:: \ 7.C {"position":"1650,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie2.png">](set: $7C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->corri più veloce che puoi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso anche tu vieni con noi]].
+
+
+:: \ Aiuti l'uomo {"position":"1475,3525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_ferito.png">]
+
+Ti guardi attorno, ma non noti nulla che possa giocare a tuo favore. (if:(history: where its name contains "10.B")'s length is 1)[Lanci un sasso contro il muro sperando che le guardie ti sentano, facendo un gran rumore. Ma le guardie sembrano interessate solo al pover'uomo che hanno ai piedi. ]Prendi così la decisione di affrontare il problema di petto, ma non appena fai un passo fuori dal tuo nascondiglio vedi una quarta guardia uscire da una porta lì vicino. Torni nel tuo nascondiglio.
+
+«Ehi, voi. Lasciate stare quella bestia. Venite dentro a darmi una mano».
+«Sissignore» rispondono le tre SS, mettendosi sull'attenti. Quindi, lo seguono dentro l'edificio.
+
+Passato qualche minuto, quatto quatto, ti avvicini all'uomo a terra e lo trascini verso una via laterale. Nell'oscurità, lo osservi. Noti che sta stringendo qualcosa al petto, probabilmente nascondendolo dentro la giubba. Inoltre, non puoi non osservare che la gamba sinistra dell'uomo è innaturalmente rivolta verso l'esterno. Nel tafferuglio, devono avergli spaccato la gamba.
+
+Appoggi la sua schiena contro il muro. Ti presenti e gli chiedi come si chiama.
+
+«Witold... (link-rerun:"Witold Pilecki")[(open-url:"https://it.gariwo.net/giusti/shoah-e-nazismo/witold-pilecki-15611.html")]».
+
+Ti spiega brevemente quello che è successo. In pratica, è stato beccato mentre usciva dal magazzino dei materiali. Ovviamente, lo hanno visto, fermato, e il resto, beh, era sotto ai tuoi occhi. Ma perché è entrato nel magazzino?
+
+Witold spiega di essere un membro della Resistenza Polacca, un gruppo sovversivo che lavora nell'ombra per contrastare il comando nazista nel paese, e il suo compito è raccogliere il maggior numero di informazioni origliando le conversazioni delle SS.
+
+Una spia potrebbe certo avere informazioni rilevanti, per esempio sugli spostamenti interni delle guardie nel campo di concentramento. Informazioni che possono risultare molto utili per procedere nella fuga. D'altra parte, però, non hai mai visto quell'uomo, e nella condizione in cui sei è naturale dubitare di chiunque.
+
+Cosa fai?
+
+(colour:"yellow")[[[Ti fidi completamente di lui->18.A]]].
+
+(colour:"yellow")[[[Chiedi informazioni, ma mantieni alta la guardia->18.B]]].
+
+(colour:"yellow")[[[Non puoi fidarti. Vai avanti->18.C]]].
+
+
+
+
+:: \ Cane {"position":"925,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cane.png">]
+
+(if:(history: where its name contains "6.A")'s length is 1)[Sussurri a Wetzler, cercando di tenere comunque un tono sostenuto, che ce la può fare, che è solo un cane, che è attaccato a un palo con una catena e che basta passare lontano per evitarlo.
+
+Wetzler si gira e ti fulmina con lo sguardo, ma continua a tremare. Sono cose che sa già, ma la paura è tanta: è nel panico, e le tue parole non fanno altro che farlo sentire ancora più inutile e incapace. Le tue parole non fanno breccia.
+
+Prendi un sasso e miri dietro la duna di terra battuta, dove vedi spuntare qualche cespuglio. Il sasso centra il bersaglio, facendo frusciare le foglie. Il cane lupo, non appena ne percepisce il movimento, s'infila tra i rovi. Wetzler, visto il cane allontanarsi, riesce fulmineo a recuperare l'asse e raggiungere la buca, permettendoti di passare. Tuttavia, è chiaro che la frustrazione e il senso di incapacità lo abbiano segnato.](if:(history: where its name contains "6.B")'s length is 1)[Sussurri a Wetzler, cercando di tenere comunque un tono sostenuto, che il trauma probabilmente lo sta sconvolgendo, ma che non è più quel ragazzino che è stato attaccato da un cane: adesso è un omone grande e grosso, che sta sopravvivendo a una delle stagioni più oscure dell'umanità. E che se cammina un passo per volta, lentamente, lontano dal cane, può prendere l'asse e usarla pure per difendersi.
+
+Le tue parole sembrano fare breccia e dargli fiducia. Wetzler segue le tue indicazioni e, in men che non si dica, appoggia l'asse sui bordi del fossato, permettendoti di attraversarlo.](if:(history: where its name contains "6.C")'s length is 1)[Prendi anche tu la rincorsa, e ti lanci sopra il fossato, ma ovviamente il tuo salto non è sufficientemente ampio. Non sei Wetzler. Riesci comunque a stringere con la mano destra il bordo della buca, e getti un urlo di paura. Rimani appeso come un salame. Wetzler, però, ti ha visto e ti raggiunge, permettendoti di salire dall'altro lato.
+
+«Così abbiam fatto prima - dice - ma mi dispiace di essere così codardo».
+
+Gli sussurri di non preoccuparsi, ma la tristezza rimane nel volto di Wetzler.]
+
+(colour: "red")[[Adesso potete andare al magazzino degli attrezzi]].
+
+
+:: \ Chiami Wetzler sottovoce e gli lanci una patata {"position":"1150,2175","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">]
+
+Lanci a Wetzler una patata intera e una mangiata per metà. Famelico, Wetzler si getta sui tuberi, divorandoli avidamente. È poca roba, ma siete contenti così.
+
+Ora siete più in forze, e avete chiaro il vostro obiettivo: magazzino, tenaglia, gabbiotto, generatore, buco, fuga.
+
+Aprite piano piano la porta da dove siete entrati, e fate per uscire. Costeggiate per qualche metro il grande edificio, quando sentite chiaramente delle risate.
+
+Sono delle SS di pattuglia, e sono vicine.
+
+Vi spostate indietro, verso la recinzione laterale del campo. Le guardie stanno girando l'angolo. Ancora qualche metro e vi scoprono. Noti che, a terra, c'è una buca, bloccata da qualche asse per evitare che qualcuno ci possa inciampare. Fai per togliere i pezzi di legno: la buca è vuota.
+
+Guardi Wetzler, poi guardi la buca. Una persona ci sta sicuramente, due no. 
+
+Cosa fai?
+
+(colour:"yellow")[[Ti infili nella buca e fai cenno a Wetzler di scappare da un'altra parte->14.A]].
+
+(colour:"yellow")[[Ti allontani, alla ricerca di un posto che possa nascondere sia te sia Wetzler->14.B]].
+
+(colour:"yellow")[[Cacci a forza Wetzler nella buca, e corri più veloce che puoi->14.C]].
+
+
+
+:: \ Dai a Wetzler la tua risposta {"position":"925,1425","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+Dopo un profondo respiro, dai la tua risposta: (if:(history: where its name contains "19.A")'s length is 1)[«Forse è il caso di pensare a un nuovo piano per evadere».](if:(history: where its name contains "19.B")'s length is 1)[«Penso sia meglio rimandare il nostro piano. Non possiamo muoverci a casaccio».](if:(history: where its name contains "19.C")'s length is 1)[«È tardi per rimandare il piano. Ci inventeremo un altro modo per ottenere la tenaglia».]
+
+Wetzler abbassa lo sguardo per terra. (if:(history: where its name contains "19.B" or "19.C")'s length is 1)[«Hai ragione - dice -, ma dobbiamo anche pensare al fatto che le guardie ormai ci aspettano fuori dal campo. Non possiamo presentarci domani all'(link-rerun:"appello")[(open-url:"https://www.assemblea.emr.it/cittadinanza/per-approfondire/formazione-pdc/viaggio-visivo/i-campi-di-concentramento-nel-novecento/la-maturita-del-sistema-nazista/la-mortalita-di-mauthausen/approfondimenti/il-rito-dellappello-e-la-partenza-dei-detenuti-per-il-lavoro
+")] come se niente fosse. D'altra parte, la tenaglia nel gabbiotto era una parte importante del nostro piano».](if:(history: where its name contains "19.A")'s length is 1)[«Facile a dirsi, ma dobbiamo pensarci stanotte. Non possiamo presentarci domani all'(link-rerun:"appello")[(open-url:"https://www.assemblea.emr.it/cittadinanza/per-approfondire/formazione-pdc/viaggio-visivo/i-campi-di-concentramento-nel-novecento/la-maturita-del-sistema-nazista/la-mortalita-di-mauthausen/approfondimenti/il-rito-dellappello-e-la-partenza-dei-detenuti-per-il-lavoro
+")] come se niente fosse. Hai idee?».] 
+
+(if:(history: where its name contains "19.A")'s length is 1)[Scuoti la testa. «Purtroppo no» dici.]
+Rimanete lì, fermi, inerti. La stanchezza e la sfiducia non vi porta a ragionare in maniera coerente. Ma in quel momento, quando tutto sembrava esser finito prima di cominciare, (colour:"red")[[una speranza]].
+
+
+:: \ Dici addio a Wetzler {"position":"2075,2650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_campo.png">]
+
+Ti guardi attorno, ma non noti nessuno. 
+
+Però, ti rendi conto che sei nei pressi di uno stanzone comune, uno di quei luoghi dove i prigionieri ebrei dormono praticamente uno sopra l'altro. Ti avvicini, sempre con Wetzler sotto braccio. Lo appoggi con la schiena alla porta, e bussi leggermente. Senti dall'interno qualche voce e qualche movimento.
+
+Sussurri nella serratura: «Ehi, qui fuori c'è uno dei nostri che sta male, aiutatelo».
+
+Guardi Wetzler, potrebbe essere l'ultima volta che vi incontrate. Gli dai un buffetto sulla guancia, ma il tuo amico non sembra abbastanza lucido da capire quello che sta succedendo.
+
+«Addio, amico mio» dici.
+
+(colour:"red")[[Quindi, ti fiondi nella notte]].
+
+
+:: \ Ehi {"position":"1725,1800","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+
+(if:(history: where its name contains "3.2.A")'s length is 1)[Va bene. Forse, costeggiando il lato sud del campo e poi tagliando verso nord, dovresti riuscire a limitare il passaggio nella zona incognita della mappa.](if:(history: where its name contains "3.2.B")'s length is 1)[Inutile perdere altro tempo. Questa mappa è inutilizzabile, senza contare che nella parte sporca potrebbero esserci segnalate guardiole delle SS e altri luoghi pericolosi.](if:(history: where its name contains "3.2.C")'s length is 1)[Ti pieghi sulle ginocchia e iniziare a scavare nella spazzatura, sperando che nessun ratto ti scambi per un pezzo di cibo.]
+
+«Che ci fai qui?» senti alle tue spalle.
+Un brivido freddo ti sale sulla schiena e ti blocca. (colour:"red")[[La tua fuga è finita prima di cominciare]].
+
+
+
+:: \ Inizio 3 {"position":"600,25","size":"100,100"}
+Potremmo dire che in ''VRBA1944'' ci sono principalmente ''due'' regole.
+
+La prima. Verrai messo davanti a delle scelte che snoderanno la tua storia. Queste scelte hanno tre opzioni di risposta. In quel frangente, dovrai decidere cosa fare. Segna su un foglio di carta quale scelta hai deciso di compiere e perché. Questa informazione ci aiuterà nella lezione di debrief.
+
+La seconda. Appena inizi la storia, non sei più tu: diventi (link-rerun:"Rudolf Vrba")[(open-url:"https://it.wikipedia.org/wiki/Rudolf_Vrba")], un giovane di vent'anni che nel 1944 è riuscito ad evadere da Auschwitz e a informare la comunità internazionale sulla immane tragedia dei campi di concentramento. Vrba è un personaggio storico realmente esistito, ma la storia narrativa che stai giocando è un'opera di finzione.
+
+Vrba ha preso questo nuovo nome dopo la sua fuga da Auschwitz, pertanto in questa storia si farà riferimento a lui con il nome che aveva prima: Walter Rosenberg.
+
+Ogni decisione che prenderai potrebbe essere ciò che fa la differenza fra la ''riuscita'' del tuo piano di fuga o il suo fallimento, con le evidenti conseguenze che comporta.
+
+Ripeto: è necessario che tu ti immagini di essere Walter Rosenberg, nel campo di concentramento, stremato dal lavoro e dai soprusi, affamato, infreddolito, impaurito, ma con un grande obiettivo nella testa. Senza la più totale empatia, questo gioco non ha senso.
+
+Non sei più a scuola, ma ad Auschwitz.
+
+Non sei più tu, ma sei (colour: "red")[[Walter Rosenberg ->Inizio 4]].
+
+
+:: \ Lasci lì l'uomo {"position":"1750,3525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">]
+
+A malincuore, ti allontani da quella terribile tragedia. Il ricordo della cosa ti tormenterà per tutta la vita, ma sei completamente dedicato alla tua importante missione: non vuoi fuggire solo per te stesso, ma per evitare che fatti come quello a cui hai appena assistito possano ripetersi ancora e ancora.
+
+Raggiungi il gabbiotto degli attrezzi. La porta principale è chiusa da un pesante lucchetto. Costeggi l'edificio, che non ha aperture, se non una piccola (link-rerun:"bocca di lupo")[(open-url:"https://it.wikipedia.org/wiki/Bocca_di_lupo_(edilizia)")] che porta al piano inferiore. Ti stupisci di come un luogo possa essere così buio: oltre quella finestrella non si vede assolutamente niente. Dentro potrebbe esserci qualunque cosa.
+
+Non hai però alternative. Scivoli nella fessura del suolo e atterri in una nuvola di polvere. Ti passi la mano sugli occhi, e li tieni aperti finché non si adeguano all'oscurità. Il magazzino è effettivamente lugubre e cadente, ma non noti nulla che possa definirsi una minaccia. Appoggiata su uno scaffale, rugginosa e pesante, trovi una tenaglia.
+
+La porti fuori con te. [[Ti senti sempre più vicino alla fuga]].
+
+
+:: \ Mostri la mappa a Wetzler {"position":"1250,1825","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Mostri la mappa a Wetzler, chiendendogli se ci capisce qualcosa.
+
+«Mmh... noi dovremmo essere qui. È l'ala che stavano ampliando, qui, a sud-ovest» mi spiega, indicando con un dito un punto nella mappa.
+
+«E se seguissimo questa direzione...» dice, seguendo con lo sguardo una via laterale che si snoda oltre l'edificio polveroso cui vi state appoggiando. Quindi, parte in velocità, facendo col dorso della mano cenno di seguirlo.
+
+Piano, cercando di limitare al massimo ogni rumore, vi muovete sinuosamente per il lato sud del campo di concentramento. La via è lunga, ma il passo di Wetzler è sicuro.
+
+Arrivate sul retro di un edificio scarsamente illuminato. Le luci baluginano lievi oltre una piccola finestra. Alzando l'indice sulla labbra, Wetzler ti chiede il silenzio, e appoggia l'orecchio sulla fredda porta d'acciaio per sentire se dentro ci sia qualcuno. Quindi, sempre con lentezza, gira la maniglia, che è aperta. E entrate.
+
+E mai come in quel momento sei felice di aver dato fiducia a Wetzler. (colour:"red")[[Sei in una cucina]].
+
+
+:: \ Non lasci Wetzler {"position":"1100,2450","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+Non puoi lasciare Wetzler. Gli metti un braccio tra le spalle e lo solllevi, facendoti forza sulle ginocchia. È tuo amico, tuo compagno, e potrebbe rivelarsi una risorsa anche in questa situazione.
+
+Wetzler respira affannosamente, ma prova a fare tutto ciò che è in suo potere per reggersi in piedi. Vi muovete lentamente ai margini esterni della strada, vicino alla recinzione.
+
+È un attimo però che sentite un rumore di passi vicino a voi. Oltre l'angolo, alcune parole in tedesco risuonano come condanne alle vostre orecchie. Sono delle SS, e sono vicini.
+
+Non c'è tempo da perdere. Noti vicino a te una buca, coperta da un paio di assi. Velocemente, ci butti dentro Wetzler in malomodo, che non ha la forza di reagire. Quindi, ricopri la buca con le assi.
+
+(colour:"red")[[E corri -> Smistamento]].
+
+
+:: \ Osservi il sasso {"position":"925,2175","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">]
+
+Osservi il sasso e lo soppesi facendolo saltare sul tuo palmo. (if:(history: where its name contains "4.A")'s length is 1)[Poi ne prendi quattro con entrambe le mani e li lanci verso la finestra, che però non si rompe. Sarà il buio, sarà la stanchezza, ma la tua mira fa cilecca. In compenso, però, si sente un gran rumore.](if:(history: where its name contains "4.B")'s length is 1)[Lo lanci. Colpisce il muro. Ricande con un tonfo ovattato sull'erba del selciato. Non si è sentito niente. 
+Ne prendi un secondo. Questa volta prendi in pieno la finestra, ma il rumore del vetro che cade su altro vetro e il fragore della deflagrazione fanno scattare le guardie, che da dietro l'angolo si danno qualche indicazione in tedesco. Quindi, si muovono verso la finestra.](if:(history: where its name contains "4.C")'s length is 1)[Ascolti attentamente il rumore delle voci delle guardie, che pian piano si distinguono meglio. È chiaro che si stanno avvicinando.]
+
+Tu e Wetaler vi spostate indietro, verso la recinzione laterale del campo. Le guardie stanno girando l'angolo. Ancora qualche metro e vi scoprono. Noti che, a terra, c'è una buca, bloccata da qualche asse per evitare che qualcuno ci possa inciampare. Fai per togliere i pezzi di legno: la buca è vuota.
+
+Guardi Wetzler, poi guardi la buca. Una persona ci starebbe, due no. Cosa fai?
+
+(colour:"yellow")[[Ti infili nella buca e fai cenno a Wetzler di scappare da un'altra parte->14.A]].
+
+(colour:"yellow")[[Ti allontani, alla ricerca di un posto che possa nascondere sia te sia Wetzler->14.B]].
+
+(colour:"yellow")[[Cacci a forza Wetzler nella buca, e corri più veloce che puoi->14.C]].
+
+
+
+:: \ Possiamo cominciare\  {"position":"1200,150","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Alcune gocce, lasciate dalla condensa, scivolano lungo il legno e ti cadono sulla fronte. È così che ti svegli da un torpore febbrile. Quanto hai dormito? Non lo ricordi, ma è buio.
+
+La notte è calata sul campo di concentramento di (link-rerun:"Auschwitz")[(open-url:"https://it.wikipedia.org/wiki/Campo_di_concentramento_di_Auschwitz")], in Polonia, la più grande e terribile macchina di morte del (link-rerun:"Terzo Reich")[(open-url:"https://encyclopedia.ushmm.org/content/it/article/third-reich-an-overview")].
+
+Fai per alzarti in piedi, lentamente. Ricordi però, in quel momento, di esserti nascosto nell'incavo lasciato da un tronco in una catasta di legna. Stanno ampliano i campi di concentramento, e diversi operai fanno avanti e indietro sui selciati del campo per concludere i lavori. Ma quella catasta, in disparte, era lì da mesi senza essere mai stata visitata.
+
+Tu e (link-rerun:"Wetzler")[(open-url:"https://www.corriere.it/cultura/22_giugno_27/rudolf-vrba-alfred-wetzler-auschwitz-9919423c-f621-11ec-8350-fcb93af951e7.shtml")], mentre a bassa voce discutevate del vostro piano di fuga, tra un estenuante turno di lavoro e il successivo, l'avete vista. Ed ecco, (colour: "red")[[l'ispirazione]].
+
+
+:: \ Rimani nascosto nel buio in attesa della prossima mossa {"position":"1475,1425","size":"100,100"}
+(go-to: (either: "È Wetzler","È una guardia"))
+
+
+:: \ Scegli a caso {"position":"1100,3400","size":"100,100"}
+(go-to: (either: " Va Wetzler"," Vai tu"))
+
+
+:: \ Sei ancora perso nei tuoi pensieri {"position":"1475,1175","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+Sei ancora perso nei tuoi pensieri, quando ti rendi conto che saranno passati sì e no già trenta minuti. Decidi che è il momento di alzarti e di iniziare il tuo piano di fuga.
+
+Cammini lentamente nell'ombra, sperando che nessuno ti noti nel buio della notte. Qualche lampione getta sulla strada una luce estremamente tenue. 
+
+Mentri cerchi di serrarti le mascelle affinché nessuno senta il suono dei tuoi denti che battono, ti sposti da un angolo buio all'altro, con sicurezza.
+
+Ti sarai spostato in tutto di una ventina di metri quando, nella quiete placida di quella notte d'inizio primavera, senti un suono in lontananza. Non fai in tempo a rendertene conto, che già ti sei schiacciato contro il muro.
+
+Sono dei passi. Il loro rumore si distingue sempre di più.
+
+Qualcuno si sta avvicinando.
+
+Poi, all'improvviso, il suono si acquieta. Non riesci a distinguere chi sia, dal tuo rifugio, ma sai che, se superasse l'angolo, potrebbe vederti.
+
+Cosa fai?
+
+(colour: "yellow")[[Rimani nascosto dove sei. Qualunque movimento potrebbe attirare l'attenzione->2.2.A]].
+
+(colour: "yellow")[[Cerchi di capire come risolvere il problema. Ti prepari ad attaccare->2.2.B]].
+
+(colour: "yellow")[[Cerchi di osservare il problema da un'altra prospettiva. Forse quei passi potrebbero fungere da diversivo->2.2.C]].
+
+
+:: \ Smistamento {"position":"925,2525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(set: $fiduciaWetzler to ($fiduciaWetzler1 + $fiduciaWetzler2 + $fiduciaWetzler3 + $fiduciaWetzler4 +$fiduciaWetzler5 + $fiduciaWetzler6 + $fiduciaWetzler7))
+(if:(history: where its name contains "14.A")'s length is 1)[Ti infili nella buca, facendo un cenno con la mano a Wetzler di scappare nella direzione opposta alle guardie.
+
+Prendi un'asta e l'appoggi sopra la testa. Da uno spiraglio lasciato tra il legno e la terra, incroci gli occhi di Wetzler, che ti osservano con tristezza e disgusto.](if:(history: where its name contains "14.B")'s length is 1)[Guardi verso Wetzler. La tua faccia è una maschera di paura e terrore. Scuoti la testa e gli fai un cenno con la mano: gli indichi la direzione verso cui fuggire, lontano dalle guardie.](if:(history: where its name contains "14.C")'s length is 1)[Ti avvicini alla buca insieme a Wetzler e, non appena si gira verso il rumore dei passi per vercare di capire la distanza con le guerdie, sposti leggermente il suo baricentro verso la buca, e con uno sgambetto lo fai cadere nella buca con un tonfo leggero, attutito dalle foglie secche.
+
+Mentre Wetzler cerca di capire cosa sta succedendo, prendi un'asse e la appoggi sopra la buca.
+
+Inizi a fuggire nella direzione opposta alle guardie. Corri senza guardarti indietro.](if:(history: where its name contains "15.C")'s length is 1)[Ti avvicini alla buca insieme a Wetzler e sposti leggermente il suo baricentro verso la buca, e con uno sgambetto lo fai cadere nella buca con un tonfo leggero, attutito dalle foglie secche.
+
+Mentre Wetzler cerca di capire cosa sta succedendo, prendi un'asse e la appoggi sopra la buca.
+
+Inizi a fuggire nella direzione opposta alle guardie. Corri senza guardarti indietro.]
+
+(colour: "red")[(if: $fiduciaWetzler is 0)[[Ma senti parole in tedesco, alte urla, e qualcuno che corre ->Smistamento 2]](if:$fiduciaWetzler is 1)[[Ma senti parole in tedesco, alte urla, e qualcuno che corre ->Smistamento 2]](if: $fiduciaWetzler is < 0)[[Questo Wetzler non me l'avrebbe perdonato ->Wetzler ti lascia perché non ha fiducia]](if: $fiduciaWetzler is > 1)[[Sembrava tutto finito ->Wetzler rimane con te]]].
+
+
+:: \ Trattieni il fiato {"position":"925,1175","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+Trattieni il fiato e ti prepari a mettere in atto la tua decisione.
+
+Tuttavia, improvvisamente, una sagoma compare oltre l'angolo. L'uomo si è mosso senza farsi sentire, ed ormai è talmente vicino da riconoscerne i connotati.
+
+(transition:"fade")[«Walter... Walter, sei tu?».]
+
+È la voce di Wetzler. Tiri un sospiro di sollievo, e fai un cenno con la mano per invitarlo nell'ombra che già ti ospita.
+
+«Walter - dice Wetzler, trafelato -, mi sono svegliato prima di te e ne ho approfittato per dare un'occhiata nei dintorni. C'è un problema».
+
+A quell'ultima parola ti sale un groppo in gola.
+
+«Ho sentito delle SS discutere di alcuni furti di attrezzi da lavoro. Hanno deciso di mettere sotto chiave il magazzino. Ora sarà impossibile ottenere una tenaglia. Non possiamo più fare il buco nella rete, e senza buco non possiamo evadere».
+
+A fronte di questa nuova informazione, bisogna capire il da farsi. Rispondi a Wetzler:
+
+(colour:"yellow")[[«Dobbiamo modificare il nostro piano. E in fretta»->19.A]].
+
+(colour:"yellow")[[«Arrendiamoci. Il piano deve essere rimandato»->19.B]].
+
+(colour:"yellow")[[«Troveremo un altro modo per ottenere la tenaglia. Atteniamoci al piano»->19.C]].
+
+
+
+
+:: \ Va Wetzler {"position":"750,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">]
+
+(if:(history: where its name contains "9.C")'s length is 1)[Tu e Wetzler decidete di tirare a sorte. Prendete un filo d'erba e ciascuno ne tiene un capo. Lo tirate all'unisono, dividendolo in due parti. Quella più lunga è la tua: pertanto, sarà Wetzler a scendere nella bocca di lupo].
+
+Wetzler sbuffa, ma segue la scelta del caso. Scivola nella fessura del suolo e lo senti atterrare nell'oscurità.
+
+Aspetti, stringendoti le spalle per limitare il tremito del corpo dovuto al freddo polacco. Intorno a te, ci sono solo il silenzio della notte primaverile e i rumori del campo di concentramento.
+
+«Walter, aiutami!» dice Wetzler, mostrando una mano fuori dalla bocca di lupo. La prendi e tiri. 
+
+Wetzler risale dalla bocca di lupo, e sorride. (colour:"red")[[Ha una tenaglia ->trovi una tenaglia]].
+
+
+
+
+:: \ Vai tu {"position":"925,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">]
+
+(if:(history: where its name contains "9.C")'s length is 1)[Tu e Wetzler decidete di tirare a sorte. Prendete un filo d'erba e ciascuno ne tiene un capo. Lo tirate all'unisono, dividendolo in due parti. Quella più corta è la tua: pertanto, dovrai scendere nella bocca di lupo].
+
+Sbuffi, ma segui la scelta del caso. Scivoli nella fessura del suolo e atterri in una nuvola di polvere. Ti passi la mano sugli occhi, e li tieni aperti finché non si adeguano all'oscurità. Il magazzino è effettivamente lugubre e cadente, ma non noti nulla che possa definirsi una minaccia. 
+
+Appoggiata su uno scaffale, rugginosa e pesante, (colour:"red")[[trovi una tenaglia]]!
+
+
+:: \ Wetzler chiede {"position":"925,1800","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Wetzler chiede cosa tu stia facendo.
+
+«Niente» rispondi con un grugnito. «Inutile carta straccia» dici gettando quel pezzo di mappa lontano da te. «Forse dovremo semplicemente proseguire in quella direzione e cercare qualcosa per asciugarci» aggiunge Wetzler, e la sua idea sembra effettivamente l'unica cosa ragionevole da fare ora. Non c'è modo di tornare indietro a qualche giorno fa, perché ormai risultate fuggitivi e se vi beccassero...
+
+D'altra parte, anche fuggire in questo momento sembra impossibile. Forse potete nascondervi nuovamente nell'incavo della legnaia e attendere la notte per muovervi alla ricerca di cibo e resistere, ma per quanto si potrebbe andare avanti in quel modo?
+
+Mentre sei perso nei tuoi pensieri, Wetzler ti blocca stringendo la tua manica, e ti spinge verso il basso. Hai fatto la mossa stupida di camminare sovrappensiero, e adesso che ritorni in te ti rendi conto che, oltre un incrocio poco illuminato da un lampione a gas, si staglia un (colour:"red")[[nuovo, singolare edificio]].
+
+
+:: \ Wetzler è digiuno {"position":"1400,2175","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">]
+
+Dai un ultimo sguardo a Wetzler.
+
+(if:(history: where its name contains "5.B")'s length is 1)[Controlli la tua smania e mangi silenziosamente le patate, controllando che il tuo compagno non ti veda.](if:(history: where its name contains "5.C")'s length is 1)[Rimetti a posto le patate. Puoi resistere ancora qualche tempo senza cibo.]
+
+Wetzler impreca a denti stretti. «Non è possibile!» dice, e comprendi il suo sconforto. (if:(history: where its name contains "5.B")'s length is 1)[Ti senti un po' in colpa per lui, ma pensi di aver fatto la scelta giusta.] Il tuo amico si lascia scivolare su un muro, con gli occhi sbarrati. Cercando di non fare rumore, ti avvicini.
+
+(if:(history: where its name contains "5.C")'s length is 1)[In preda alla rabbia, Wetzler tira un calcio a una pentola a terra, facendo un grande baccano. Lo fulmini con lo sguardo, poi gli fai cenno d'avvicinarsi. ]«Ehi, Wetzler - gli dici -, non possiamo restare qui, e non possiamo tornare nella nostra branda. E non riusciamo neanche a trovare altro cibo. L'unica cosa che possiamo fare è seguire il piano e fuggire da qui. Prima ci rechiamo nel magazzino degli attrezzi a prendere una tenaglia, poi facciamo saltare il generatore. Abbiamo poco tempo. riesci ad alzarti?».
+
+Con gli occhi vitrei e il volto pallido, Wetzler annuisce lentamente. Leggi lo sconforto il tutto il suo viso. Gli dai una pacca sulla spalla, cercando di trasmettergli un po' di forza. Vi alzate.
+
+Aprite piano piano la porta da cui siete entrati e sgusciate all'esterno. Camminate rasenti al muro, cercando di mantenervi nell'ombra. Cammini una ventina di metri, ma c'è qualcosa di strano. Di solito il passo di Wetzler è pesante e sicuro, adesso invece sembra inesistente.
+
+Ti giri. Wetzler è in ginocchio, a terra. Con entrambe le mani cerca di tenersi sollevato, ma cade a terra.
+
+(colour:"red")«[[Wetzler, che succede?]]».
+
+
+:: 1.A {"position":"925,800","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+(set: $P1A to 2)
+(set: $fiduciaWetzler1 to +1)
+
+Devi cercare Wetzler. Per evadere, hai bisogno di tutto l'aiuto possibile.
+
+Lentamente, alzi la testa sopra la catasta di legna, per osservare la presenza di guardie o prigionieri. Non sembra esserci anima viva, ma non ti fidi. È molto buio. In lontananza qualche tenue luce degli uffici del campo di concentramento ancora brilla, ma è una luce davvero remota. Vicino a te c'è solo il buio, c'è solo la pioggia che cade.
+
+Provi piano piano a muoverti lontano dalla strada, nei pressi della recinzione elettrificata, facendo ben attenzione a non toccarla. Basta sfiorarla per restare fulminati. Ti avvicini verso il cuore del campo di concentramento. Se Wetzler si è spostato, è molto probabile che sia andato alla ricerca di cibo, e in ogni caso hai bisogno di informazioni.
+
+Certo, è rischioso. (colour: "red")[[Ma il piano non può funzionare senza l'aiuto di Wetzler]].
+
+
+:: 1.B {"position":"1475,800","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+(set: $fiduciaWetzler2 to -1)(set: $P1B to 2)
+
+Devi fuggire. Ti spiace per Wetzler. Speri soltanto che non si sia fatto prendere. In ogni caso, la tua missione potrebbe cambiare la storia e salvare migliaia di vite. È una semplice questione matematica.
+
+Decidi di attendere che anche le ultime luci del campo si spengano, e che i rumori, mai del tutto sopiti, almeno diminuiscano di intensità. Ti siedi dietro la catasta di legno, chiudendo le mani a coppa e soffiandoci nella speranza di scaldarle un po'.
+
+Hai fame e sete. E nonostante ti sia appena svegliato, (colour: "red")[[ti senti comunque molto stanco]].
+
+
+:: 10.A {"position":"1650,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_prigioniero-1.png">](set: $10A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Lasci lì l'uomo]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Non sai bene come, ma sei riuscito a liberarti]].
+
+
+:: 10.B {"position":"1475,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_prigioniero-1.png">](set: $10B to 1)
+(set: $Allerta6 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Aiuti l'uomo]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Non sai bene come, ma sei riuscito a liberarti]].
+
+
+:: 10.C {"position":"1300,3400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_prigioniero-1.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Aiuti l'uomo]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Non sai bene come, ma sei riuscito a liberarti]].
+
+
+:: 11.A {"position":"1100,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">](set: $11A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vi dividete]].
+
+(colour: "red")[[No, vorrei pensarci ancora->trovi una tenaglia]].
+
+
+:: 11.B {"position":"750,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">](set: $11B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Manca poco]].
+
+(colour: "red")[[No, vorrei pensarci ancora->trovi una tenaglia]].
+
+
+:: 11.C {"position":"925,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">]
+(set: $Allerta7 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Manca poco]].
+
+(colour: "red")[[No, vorrei pensarci ancora->trovi una tenaglia]].
+
+
+:: 12.A {"position":"725,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vittoria con Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore sì Wetzler]].
+
+
+:: 12.B {"position":"900,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">](set: $12B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermi->Vittoria con Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore sì Wetzler]].
+
+
+:: 12.C {"position":"1075,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">](set: $12C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vittoria con Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore sì Wetzler]].
+
+
+:: 14.A {"position":"750,2300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">](set: $14A to 1)
+(set: $fiduciaWetzler6 to -1)
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo -> Smistamento]].
+
+(colour: "red")[[No, vorrei pensarci ancora -> Osservi il sasso]].
+
+
+:: 14.B {"position":"925,2300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo -> Smistamento]].
+
+(colour: "red")[[No, vorrei pensarci ancora -> Osservi il sasso]].
+
+
+:: 14.C {"position":"1100,2300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">](set: $14C to 2)
+(set: $fiduciaWetzler7 to +1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo -> Smistamento]].
+
+(colour: "red")[[No, vorrei pensarci ancora -> Osservi il sasso]].
+
+
+:: 15.A {"position":"1400,2425","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_campo.png">](set: $15A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Dici addio a Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Wetzler, che succede?]].
+
+
+:: 15.B {"position":"1575,2425","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_campo.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo -> Dici addio a Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora ->Wetzler, che succede?]].
+
+
+:: 15.C {"position":"1250,2375","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_campo.png">](set: $15C to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Non lasci Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Wetzler, che succede?]].
+
+
+:: 16.A {"position":"1425,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">](set: $16A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vittoria senza Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore no Wetzler]].
+
+
+:: 16.B {"position":"1600,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vittoria senza Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore no Wetzler]].
+
+
+:: 16.C {"position":"1775,4125","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">](set: $16C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Vittoria senza Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Generatore no Wetzler]].
+
+
+:: 17.A {"position":"1850,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_treno.png">](set: $17A to 2)
+(set:$Allerta8 to 1)
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Il treno]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ti senti sempre più vicino alla fuga]].
+
+
+:: 17.B {"position":"2025,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_treno.png">](set: $17B to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Il treno]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ti senti sempre più vicino alla fuga]].
+
+
+:: 17.C {"position":"2200,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_treno.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Il treno]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ti senti sempre più vicino alla fuga]].
+
+
+:: 18.A {"position":"1300,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_ferito.png">](set: $18A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Generatore no Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Aiuti l'uomo]].
+
+
+:: 18.B {"position":"1475,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_ferito.png">](set: $18B to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Generatore no Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Aiuti l'uomo]].
+
+
+:: 18.C {"position":"1650,3650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_ferito.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Generatore no Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Aiuti l'uomo]].
+
+
+:: 19.A {"position":"750,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">](set: $19A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Dai a Wetzler la tua risposta]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Trattieni il fiato]].
+
+
+:: 19.B {"position":"925,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Dai a Wetzler la tua risposta]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Trattieni il fiato]].
+
+
+:: 19.C {"position":"1100,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">](set: $19C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Dai a Wetzler la tua risposta]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Trattieni il fiato]].
+
+
+:: 2.1.A {"position":"750,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">](set: $P2punto1A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Trattieni il fiato]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ma il piano non può funzionare senza l'aiuto di Wetzler]].
+
+
+:: 2.1.B {"position":"925,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">](set: $P2punto1B to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Trattieni il fiato]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ma il piano non può funzionare senza l'aiuto di Wetzler]].
+
+
+:: 2.1.C {"position":"1100,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Trattieni il fiato]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Ma il piano non può funzionare senza l'aiuto di Wetzler]].
+
+
+:: 2.2.A {"position":"1300,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">](set: $P2punto2A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Rimani nascosto nel buio in attesa della prossima mossa]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Sei ancora perso nei tuoi pensieri]].
+
+
+:: 2.2.B {"position":"1475,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">](set: $P2punto2B to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Rimani nascosto nel buio in attesa della prossima mossa]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Sei ancora perso nei tuoi pensieri]].
+
+
+:: 2.2.C {"position":"1650,1300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Rimani nascosto nel buio in attesa della prossima mossa]].
+
+(colour: "red")[[No, vorrei pensarci ancora-> Sei ancora perso nei tuoi pensieri]].
+
+
+:: 20.A {"position":"1300,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">](set: $20A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Sei ancora perso nei tuoi pensieri]].
+
+(colour: "red")[[No, vorrei pensarci ancora->ti senti comunque molto stanco]].
+
+
+:: 20.B {"position":"1475,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Sei ancora perso nei tuoi pensieri]].
+
+(colour: "red")[[No, vorrei pensarci ancora->ti senti comunque molto stanco]].
+
+
+:: 20.C {"position":"1650,1050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">](set: $20C to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Sei ancora perso nei tuoi pensieri]].
+
+(colour: "red")[[No, vorrei pensarci ancora->ti senti comunque molto stanco]].
+
+
+:: 3.1.A {"position":"750,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">](set: $3punto1A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Wetzler chiede]].
+
+(colour: "red")[[No, vorrei pensarci ancora->una speranza]].
+
+
+:: 3.1.B {"position":"925,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Wetzler chiede]].
+
+(colour: "red")[[No, vorrei pensarci ancora->una speranza]].
+
+
+:: 3.1.C {"position":"1100,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">](set: $3punto1C to 2)
+(set: $fiduciaWetzler3 to +1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Mostri la mappa a Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->una speranza]].
+
+
+:: 3.2.A {"position":"1550,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">](set: $3punto2A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Ehi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->noti qualcosa vicino a te]].
+
+
+:: 3.2.B {"position":"1725,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Ehi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->noti qualcosa vicino a te]].
+
+
+:: 3.2.C {"position":"1900,1675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">](set: $3punto2C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Ehi]].
+
+(colour: "red")[[No, vorrei pensarci ancora->noti qualcosa vicino a te]].
+
+
+:: 4.A {"position":"750,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">]
+(set: $Allerta1 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Osservi il sasso]].
+
+(colour: "red")[[No, vorrei pensarci ancora->nuovo, singolare edificio]].
+
+
+:: 4.B {"position":"925,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">](set: $4B to 2)
+
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Osservi il sasso]].
+
+(colour: "red")[[No, vorrei pensarci ancora->nuovo, singolare edificio]].
+
+
+:: 4.C {"position":"1100,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">](set: $4C to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Osservi il sasso]].
+
+(colour: "red")[[No, vorrei pensarci ancora->nuovo, singolare edificio]].
+
+
+:: 5.A {"position":"1225,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">](set: $5A to 2)
+(set: $fiduciaWetzler4 to +1)
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Chiami Wetzler sottovoce e gli lanci una patata]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Sei in una cucina]].
+
+
+:: 5.B {"position":"1400,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">](set: $5B to 1)
+(set: $fiduciaWetzler5 to -1)
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Wetzler è digiuno]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Sei in una cucina]].
+
+
+:: 5.C {"position":"1575,2050","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">]
+(set: $Allerta2 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Wetzler è digiuno]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Sei in una cucina]].
+
+
+:: 8.A {"position":"2025,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">](set: $8A to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Il kapò]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Quindi, ti fiondi nella notte]].
+
+
+:: 8.B {"position":"2200,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">](set: $8B to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Il kapò]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Quindi, ti fiondi nella notte]].
+
+
+:: 8.C {"position":"1850,3025","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">]
+(set: $Allerta5 to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->Tiri indietro la testa]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Quindi, ti fiondi nella notte]].
+
+
+:: 9.A {"position":"750,3275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">](set: $9A to 1)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Va Wetzler]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso potete andare al magazzino degli attrezzi]].
+
+
+:: 9.B {"position":"925,3275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Vai tu]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso potete andare al magazzino degli attrezzi]].
+
+
+:: 9.C {"position":"1100,3275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">](set: $9C to 2)
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo-> Scegli a caso]].
+
+(colour: "red")[[No, vorrei pensarci ancora->Adesso potete andare al magazzino degli attrezzi]].
+
+
+:: Adesso anche tu vieni con noi {"position":"1475,2900","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie2.png">]
+
+Cerchi di divincolarti dalle guardie, mentre proietti uno sguardo di fuoco alla volta di quello che un tempo era il tuo compagno. Maledetto Wetzler, maledetta Germania, maledetto tutto il mondo.
+
+La guardia che ti ha catturato, al vederti così tenace, ti passa il manganello sugli stinchi, buttandoti a terra.
+
+Mentre una guardia porta via Wetzler, un'altra prende il suo posto.
+
+«Un'altra canaglia sionista che ha voglia di scappare, eh...».
+«Sì. Su, aiutami a tirarlo su».
+
+La nuova guardia però non solo non asseconda i comandi del primo, ma per tutta risposta si accende una sigaretta.
+
+«Su - dice -, non c'è mica bisogno di essere così seri, Mueller. Puoi anche cercare di rilassarti, ogni tanto. Dove vuoi che scappi un cencio malridotto come questo?»
+«Gli ordini sono ordini, Kasper - dichiara l'altro con voce perentoria -. Sei sempre stato così pigro! Per questo non hai mai fatto carriera».
+«Non l'ho mai fatta perché non mi interessa, caro. A me frega solo dell'alcol e delle donne. A te no, Mueller?»
+
+La situazione sembra in stallo. Entrambe le guardie si fissano, abbastanza scocciate. Cosa fai?
+
+(colour:"yellow")[[Reagisci con tutte le tue forze: non ti avranno-> 7.A]].
+
+(colour:"yellow")[[Potresti cercare di metterli l'uno contro l'altro-> 7.B]].
+
+(colour:"yellow")[[Ti osservi attorno per cercare una via di fuga-> 7.C]].
+
+
+
+
+:: Adesso potete andare al magazzino degli attrezzi {"position":"925,3150","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_gabbiotto.png">]
+
+Tu e Wetzler vi allontanate velocemente dalla tana del cane lupo, in direzione del magazzino degli attrezzi. Con un po' di coraggio, e un po' di fortuna, potreste essere in grado di entrare per prendere la tenaglia, anche se, come sapete, la porta sarà chiusa e serrata.
+
+E così è, effettivamente. Il lugubre gabbiotto mostra un pesante lucchetto davanti a se. È evidente che da lì non si passa.
+
+Wetzler sta ansimando, e anche tu non sei nella tua condizione migliore. Vi sentite entrambi provati da questo viaggio che vi ha portato fin qui, tra mille imprevisti che vi hanno bloccato la strada e le mille emozioni che vi hanno sconquassato il cuore. Dovete uscire dal campo di concentramento: ora siete a un passo da ottenere lo strumento con il quale evadere. Ma siete entrambi stravolti dalla fatica.
+
+Costeggiate l'edificio, che non ha aperture, se non una piccola (link-rerun:"bocca di lupo")[(open-url:"https://it.wikipedia.org/wiki/Bocca_di_lupo_(edilizia)")] che porta al piano inferiore. Vi stupite di come un luogo possa essere così buio: oltre quella finestrella non si vede assolutamente niente. Dentro potrebbe esserci qualunque cosa.
+
+Tu e Wetzler vi guardate negli occhi, ed entrambi pensate la stessa cosa: "Io lì non ci entro!". Siete entrambi molto stanchi, impauriti, e la voglia di affrontare il vuoto di quel seminterrato è lontana da voi anni luce. Wetzler ha rivissuto di recente un trauma infantile, ed è comprensibile il suo sconforto. Ma anche tu, nelle ultime ore, ne hai passate di cotte e di crude.
+
+Che cosa fai?
+
+(colour: "yellow")[[[Wetzler deve andare: è più forte di me->9.A]]].
+
+(colour: "yellow")[[[Wetzler ne ha vissute troppe. Vado io->9.B]]].
+
+(colour: "yellow")[[[In questi casi, meglio tirare a sorte->9.C]]].
+
+
+:: Catturano Wetzler e ti tradisce {"position":"1475,2775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(if:(history: where its name contains "14.A")'s length is 1)[Wetzler corre, ma non appena si rende conto che le guardie stanno arrivando, si butta per terra coprendosi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non lo vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.](if:(history: where its name contains "14.B")'s length is 1)[Correte, ma non appena vi rendete conto che le guardie stanno arrivando, vi buttate per terra coprendovi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non vi vedano, così nascosti in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da voi e vanno oltre.](if:(history: where its name contains "14.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.](if:(history: where its name contains "15.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione].
+
+«Ehi - senti dire da una voce a te sconosciuta - c'è qualcuno qui».
+«Oh, guarda un po' - dice un'altra voce - che ci fa qui questo sporco ebreo».
+
+Volgi lo sguardo in direzione della voce e il tuo sangue si ghiaccia nelle vene.
+
+Hanno trovato Wetzler.
+
+Le due guardi mettono in piedi il tuo povero compagno.
+
+«Bene bene, tu vieni con noi. E vedi di non fare scherzi».
+«Andiamo a parlare con il capo. Chissà cosa vorrà fare di uno che ha provato a evadere» sghignazza la guardia.
+«No, non fatelo» urla Wetzler. «Se promettete di non uccidermi, posso dirvi un segreto».
+«Un segreto?» grugnisce una guardia. «Sentiamo un po'» dice, annuendo con la testa.
+«Laggiù, laggiù c'è una persona che vuole evadere».
+
+Il suo dito sta indicando proprio te. Provi a scappare, ma inciampi e cadi a terra sbattendo il volto. Non fai in tempo a riprenderti che una guardia è su di te.
+
+«Oh, guarda un po', un altro maiale è scappato dal recinto» ride la guardia.
+
+(colour:"red")[«[[Adesso anche tu vieni con noi]]»]
+
+
+:: Catturano Wetzler ma non ti tradisce {"position":"1600,2775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(if:(history: where its name contains "14.A")'s length is 1)[Wetzler corre, ma non appena si rende conto che le guardie stanno arrivando, si butta per terra coprendosi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non lo vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.](if:(history: where its name contains "14.B")'s length is 1)[Correte, ma non appena vi rendete conto che le guardie stanno arrivando, vi buttate per terra coprendovi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non vi vedano, così nascosti in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da voi e vanno oltre.](if:(history: where its name contains "14.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.](if:(history: where its name contains "15.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione].
+
+«Ehi - senti dire da una voce a te sconosciuta - c'è qualcuno qui».
+«Oh, guarda un po' - dice un'altra voce - che ci fa qui questo sporco ebreo».
+
+Volgi lo sguardo in direzione della voce e il tuo sangue si ghiaccia nelle vene.
+
+Hanno trovato Wetzler.
+
+Le due guardi mettono in piedi il tuo povero compagno.
+
+«Bene bene, tu vieni con noi. E vedi di non fare scherzi».
+«Andiamo a parlare con il capo. Chissà cosa vorrà fare di uno che ha provato a evadere» sghignazza la guardia.
+
+Ancora nascosto, osservi i tre che si allontanano. I tuoi occhi adesso si riempiono di lacrime.
+
+(colour:"red")[[Wetzler è stato preso->Quindi, ti fiondi nella notte]]. È impossibile che veda l'alba.
+
+
+:: E c'è qualcosa che non quadra {"position":"1200,525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Sussurri con un filo sottilissimo di voce:
+
+(transition:"fade")[«Wetzler... Wetzler!»]
+
+Nessuna risposta. Ti contorci per vedere se Wetzler è ancora davanti a te.
+
+Niente. Solo il nero che è sceso omogeneo su tutta la (link-rerun:"Polonia")[(open-url:"https://encyclopedia.ushmm.org/content/it/article/invasion-of-poland-fall-1939#:~:text=Le%20truppe%20tedesche%20invasero%20la,dichiararono%20guerra%20alla%20Germania%20nazista")].
+Wetzler non c'è.
+
+Ne approfitti per uscire dall'antro oscuro che era diventato il tuo claustrofobico giaciglio. È bello potersi finalmente stiracchiare, ma non riesci a goderne. Dove sarà finito Wetzler? Forse ha approfittato di un momento particolarmente buono per evadere da solo, oppure è andato alla ricerca di cibo. E chissà, magari è stato già catturato. O forse anche peggio...
+
+No, basta. Non è importante. Hai una missione da compiere, devi evadere. Devi farlo anche per Wetzler. Se fosse già stato catturato, rimarresti solo tu. Il piano è più importante della singola persona: bisogna evadere, con o senza Wetzler.
+
+Sei in dubbio, non sai cosa fare. Vai a cercarlo?
+
+(colour: "yellow")[[Sì. Qualunque cosa sia successa, dobbiamo fuggire insieme]].
+
+(colour: "yellow")[[No. Non posso perdere ulteriore tempo. Il nostro obiettivo è l'unica cosa che conta]].
+
+
+:: E ora {"position":"1200,4725","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)Il gioco prevede diversi finali. 
+
+È possibile finire insieme a Wetzler, o da solo. Inoltre, è possibile finire il gioco illeso oppure con una ferita. Questo dipende dal grado di ''allerta'' delle SS, definito sulla base delle tue decisioni. Alcune di esse, infatti, hanno generato rumore o seminato tracce che hanno messo le guardie sul "chi va là". È questo un primo fattore che indica che le tue azioni hanno avuto delle conseguenze, che però magari non hai percepito.
+
+Per molte scelte che hai fatto, infatti, non è detto ci fosse una soluzione ottimale. Sicuramente c'erano delle soluzioni subottimali.
+
+E ora, proviamo a "rimetterci" all'interno della storia, e andiamo a valutare le decisioni prese (colour:"red")[[una per una]].
+
+
+:: E ora, scopriamo il tuo punteggio {"position":"1200,5100","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)(set: $PF to ($P1A + $P1B + $P2punto1A + $P2punto1B +$P20A + $P19A + $P19B + $P2punto2A + $P2punto2B + $3punto1A + $3punto1C + $3punto2A + $3punto2C +$4B +$4C +$5A + $5B + $14A + $14C +$15A + $15C + $6B + $6C + $7B + $7C + $8A + $8B + $9A + $9C +$10A + $10B +$13A +$13B + $11A + $11B + $18A + $18B + $17A + $17B + $12B + $12C + $16A + $16C))
+Intanto, grazie per aver giocato a ''VRBA1944''. Spero sia stata per te un'esperienza utile e sfidante. Se ti va, condividila con i tuoi amici.
+
+Io sono Daniele Ciacci, faccio il professore e ho scritto "VRBA1944" proprio con l'obiettivo di spiegare ai ragazzi della scuola secondaria di primo grado che cos'è la complessità. 
+
+Infatti, a questo gioco dovrebbe seguire un'ora di debrief in cui ci si confronta su questa esperienza e si impara qualcosa di più su come prendere decisioni efficaci in un sistema complesso. 
+
+Se vuoi sapere qualcosa di più su di me, guarda (link-rerun:"''qui''")[(open-url:"https://www.linkedin.com/in/danieleciacci/")].
+
+Il tuo punteggio è: ''(print: $PF)''/20.
+
+A presto,
+Daniele Ciacci
+
+//VRBA1944 © 2024 by Daniele Ciacci is licensed under Creative Commons Attribution-NonCommercial 4.0 International //
+
+
+:: FINALE {"position":"1200,4600","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+) Sei riuscito a concludere ''VRBA1944''. Congratulazioni.
+
+Rudolf Vrba (al tempo, con il nome Walter Rosemberg) e Alfred Wetzler fuggirono dal campo di concentramento di Auschwitz il 10 aprile del 1944.
+
+Pochi giorni dopo raggiunsero il confine e poterono dirsi davvero liberi. A Žilina, davanti ai responsabili del consiglio ebraico slovacco, Vrba raccontò tutto. Illustrò le statistiche che aveva raccolto e mostrò alcuni disegni, tra cui una mappa del campo di concentramento. I dirigenti rimasero sconvolti dal suo racconto e da quello di Wetzler. Chiesero ai due giovani di mettere per iscritto le loro memorie. 
+
+Wetzler e Vrba scrissero separatamente la propria relazione, in maniera che ciascuno raccontasse i fatti secondo il proprio punto di vista. Dalle due relazioni nacque un rapporto: il primo documento sull'esistenza della Shoah, i (link-rerun:"//Protocolli di Auschwiz//")[(open-url:"https://it.wikipedia.org/wiki/Rapporto_Vrba-Wetzler")].
+
+(colour:"red")[[E ora]]?
+
+
+:: Generatore no Wetzler {"position":"1600,4000","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">]
+
+Finalmente, vedi davanti a te l'ultima tappa della tua fuga. Il gabbiotto, con il suo generatore all'esterno, è ciò che ti separa dal raggiungimento del tuo obiettivo
+
+(if:(history: where its name contains "vi ritroverete al generatore")'s length is 1)[Attendi Wetzler per qualche minuto, poi per un'ora. Niente. Wetzler non arriva. Speri non sia stato catturato, cerchi di rifuggire il pensiero che in questo momento Wetzler possa essere vittima di qualche aguzzino tedesco, ma non ci riesci. 
+
+Bisogna scappare. Decidi di farlo anche per lui.] Il generatore esterno serve a rifornire di energia elettrica la recinzione che separa il campo di concentramento dalla tua libertà. Consiste di una grande plancia di acciaio con diversi pulsanti e luci lampeggianti. All'interno del gabbiotto riesci a recuperare un manuale di istruzioni in tedesco, lingua che comprendi nel parlato, ma non nello scritto. Riesci comunque a decifrare qualche comando.
+
+La pioggia si intensifica, dando il via a un vero e proprio nubifragio. Il rumore dell'acqua battente rende ingestibile il manuale d'uso, che riponi nel gabbiotto. In realtà, quella della pioggia è una buona notizia: le SS di sentinella saranno di numero inferiore. Sai però benissimo cosa significa sovraccaricare un generatore di energia, e sai anche che effetto fa l'elettricità quando entra in contatto con l'acqua.
+
+Non vuoi aspettare la fine della pioggia. Tuttavia, il rischio è alto. Hai più o meno capito come fare per sovraccaricare il generatore, ma il manuale non spiegava come farlo in caso di pioggia. Cosa fai?
+
+(colour:"yellow")[[[Se le istruzioni non lo spiegano, meglio evitare. Attenderai che la pioggia diminuisca->16.A]]].
+
+(colour:"yellow")[[[Potrei tornare indietro e cercare qualcuno che mi aiuti->16.B]]].
+
+(colour:"yellow")[[[Devo provarci comunque. Attivo il sovraccaricamento->16.C]]].
+
+
+:: Generatore sì Wetzler {"position":"900,4000","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">]
+
+Finalmente, vedi davanti a te l'ultima tappa della tua fuga. Il gabbiotto, con il suo generatore all'esterno, è ciò che ti separa dal raggiungimento del tuo obiettivo
+
+Il generatore esterno serve a rifornire di energia elettrica la recinzione che separa il campo di concentramento dalla tua libertà. Consiste di una grande plancia di acciaio con diversi pulsanti e luci lampeggianti. All'interno del gabbiotto riesci a recuperare un manuale di istruzioni in tedesco, lingua che comprendi nel parlato, ma non nello scritto. Riesci comunque a decifrare qualche comando.
+
+La pioggia si intensifica, dando il via a un vero e proprio nubifragio. Il rumore dell'acqua battente rende ingestibile il manuale d'uso, che riponi nel gabbiotto. In realtà, quella della pioggia è una buona notizia: le SS di sentinella saranno di numero inferiore. Sai però benissimo cosa significa sovraccaricare un generatore di energia, e sai anche che effetto fa l'elettricità quando entra in contatto con l'acqua.
+
+Non vuoi aspettare la fine del temporale. Tuttavia, il rischio è alto. Hai più o meno capito come fare per sovraccaricare il generatore, ma il manuale non spiegava come farlo in caso di pioggia. Cosa fai?
+
+(colour:"yellow")[[[Se le istruzioni non lo spiegano, meglio evitare. Attenderemo che la pioggia diminuisca->12.A]]].
+
+(colour:"yellow")[[[Chiedi a Wetzler di aiutarti->12.B]]].
+
+(colour:"yellow")[[[Devo provarci comunque. Attivo il sovraccaricamento->12.C]]].
+
+
+:: Il kapò {"position":"2025,3150","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">]
+
+Il kapò ti osserva e pronuncia, ben candendo le parole e con un pesante accento tedesco: «Allora?»
+
+(if:(history: where its name contains "8.A")'s length is 1)[Gli dici, semplicemente, che stai scappando per evadere il più lontano possibile e, se Dio vorrà, potrai raccontare al mondo tutto il casino che sta succedendo.](if:(history: where its name contains "8.B")'s length is 1)[Gli dici che, mentre stavi tornando dal lavoro, ti sei un attimo messo di lato per urinare sul lato della strada. Adesso, stavi solo cercando la baracca del tuo gruppo per dormire. È una scusa patetica, il kapò sorride: «A quest'ora? 'Sta stupidaggine non me la bevo».]
+
+Il kapò ti osserva: «Guarda che sono dalla tua parte, maledetto. Qui è uno schifo. E comunque ormai ti conosciamo tutti qui, kapò e SS: sei quello che non si fa vedere da un paio di giorni. Raccontami un po' il tuo piano».
+
+Gli riveli per sommi capi il tuo piano di fuga. Il kapò ascolta attentamente, e ti fa cenno di seguirlo. Davanti a un casermone grigio, bussa per tre volte alla porta: scatta la serratura. Il kapò ti dice di aspettare lì qualche minuto. 
+
+Quelli che sono pochi minuti sembrano ora: la paura che il kapò ti stia tradendo ti sale dentro. Ma una volta che l'uomo esce dall'edificio, e la serratura scatta per chiudersi, ti passa un oggetto.
+
+(colour: "red")[[È una tenaglia]].
+
+
+:: Il treno {"position":"2025,3775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_treno.png">]
+
+(if:(history: where its name contains "17.A")'s length is 1)[Corri a perdifiato per provare a raggiungere il treno in partenza, ma ti blocchi appena prima della banchina. Un fitto nugolo di SS sta caricando casse nei vagoni. Cerchi di svicolare oltre le luci dei lampioni della stazione. Uscire troppo presto significa farsi beccare, troppo tardi e il treno raggiungerà una velocità tale che sarà difficile raggiungerlo.
+
+Un altro fischio segnala l'imminente partenza. Il treno prende velocità. Provi a inseguirlo correndo, ma è troppo tardi. Il veicolo si allontana nella notte, senza preoccuparsi di chi lascia indietro.](if:(history: where its name contains "17.B")'s length is 1)[Provi ad avvicinarti alla banchina, origliando dai discorsi delle SS che ivi caricano il treno, nel caso qualcuno dicesse dove sia diretto. Tuttavia le informazioni che cercavi rimangono oscure, e il treno parte nella notte.](if:(history: where its name contains "17.C")'s length is 1)[Abbandoni l'idea di imbarcarti sul treno. Sono troppe le incognite. E se finissi in un altro campo di concentramento?]
+
+In ogni caso, il treno rinfocola in te il desiderio di fuggire. È come se fosse il simbolo della libertà che vai cercando. Così, con una nuova speranza, ti dirigi verso (colour:"red")[[il gabbiotto con il generatore->Generatore no Wetzler]].
+
+
+:: Inizio {"position":"200,25","size":"100,100"}
+Ti dò il benvenuto.
+
+Alcune informazioni prima di cominciare.
+
+''VRBA1944'' è un'avventura testuale che serve a valutare la tua predisposizione e i parametri che attivi quando devi prendere una decisione in una situazione complessa e stressante. Le informazioni che trarremo dalle scelte che farai serviranno a capire come fai a prendere decisioni e come migliorare questo processo.
+
+Questo processo si chiama, in inglese, "(link-rerun:"decision making")[(open-url:"https://www.google.com/search?q=decision+making&oq=decision+making&gs_lcrp=EgZjaHJvbWUyDAgAEEUYORixAxiABDIHCAEQABiABDIHCAIQABiABDIHCAMQABiABDIHCAQQABiABDIHCAUQABiABDIHCAYQABiABDIHCAcQABiABDIHCAgQABiABDIHCAkQABiABNIBCDIyMjFqMGo0qAIAsAIB&sourceid=chrome&ie=UTF-8&safe=active&ssui=on")]", e prende a piene mani dalla (colour: "red")+(link-rerun:"scienza della complessità")[(open-url:"https://it.wikipedia.org/wiki/Teoria_della_complessit%C3%A0")] e dalla cibernetica. 
+
+Sono parole difficili, ma potremmo sintetizzare così il concetto: ci sono delle situazioni in cui è difficile prendere la decisione migliore (ad esempio, quale scuola superiore scelgo?) perché non esiste una singola risposta giusta, ma tante risposte che hanno dei pro e dei contro. E anche facendo un'analisi dei vantaggi e degli svantaggi, rimane un'incognita: la casualità, che incide sempre nella vita (ad esempio, potresti scegliere la scuola migliore per te, ma poi trovare degli insegnanti incompetenti, un'organizzazione scadente e compagni di classe antipatici).
+
+In pratica, la domanda è: in questi casi, (clicca le parole in rosso) (colour: "red")[[come si fa a scegliere -> "Inizio 2"]]. 
+
+//VRBA1944 © 2024 by Daniele Ciacci is licensed under Creative Commons Attribution-NonCommercial 4.0 International//
+
+
+:: Inizio 4 {"position":"800,25","size":"100,100"}
+Qualche suggerimento prima di cominciare ''VRBA1944''.
+
+Ci sono alcuni link nella storia. Quelli di colore (colour:"red")[rosso] servono per proseguire nella storia, mentre quelli di colore (colour:"blue")[blu] sono collegamenti informativi che ti portano all'esterno della storia.
+
+Bisogna fare particolarmente attenzione ai collegamenti (colour:"yellow")[gialli]: questi riguardano le diverse opzioni che puoi seguire nella storia e che ne definiranno lo svolgimento. In pratica, sono ''scelte significative''.
+
+Ogni volta che hai a che fare con un link giallo, segnati su un foglietto la risposta che hai preso, (colour:"red")[[per avere così traccia di ciò che hai fatto->Inizio 5]].
+
+
+:: Inizio 5 {"position":"1000,25","size":"100,100"}
+In ''VRBA1944'' ci sono quattro possibili finali, che variano al variare delle decisioni prese nel corso della storia. Ogni scelta (che, se ricordi, sono rappresentate dal link in (colour:"yellow")[''giallo'']) ti darà un punteggio: migliore è la scelta, più alto sarà il punteggio ottenuto. Il massimo è ''20'', perciò impegnati a ottenerlo. 
+
+Il punteggio finale ti sarà mostrato nell'ultima schermata di ''VRBA1944''.
+
+Inoltre, per una esperienza più immersiva, puoi:
+
+• Far partire (link-rerun:"Fur Anna Maria")[(open-url:"https://youtu.be/HCNRioytyAI?si=WEwp-5dwwvEnwA0b")] di Arvo Part e tenerla come musica di sottofondo.
+• Se la musica ti da fastidio, puoi usare (link-rerun:"Rainy Mood")[(open-url:"https://rainymood.com/")] per avere un rilassante rumore di pioggia in sottofondo.
+
+Se avere un sottofondo ti infastidisce, oppure non hai le cuffie, (colour:"red")[[puoi anche proseguire senza ->Inizio 6]].
+
+
+:: Inizio 6 {"position":"1200,25","size":"100,100"}
+Bene.
+
+In questa storia sarete in due: tu sei Walter Rosenberg (che solo dopo esser stato liberato riceverà il nuovo nome di Rudolph Vrba) e viaggerai insieme al tuo compagno Alfred Wetzler (che nel corso della storia chiameremo solo per cognome). 
+
+Se ci fosse qualcosa di non chiaro, chiedi pure al professore.
+
+Ora basta. Ripeto: non siamo più a scuola.
+
+Sei infreddolito, stravolto, impaurito. Ora sei ad Auschwitz.
+
+(colour: "red")[[ Possiamo cominciare ]].
+
+
+:: La tua fuga è finita prima di cominciare {"position":"1525,1825","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Ti giri, e un sorriso scivola sulle tue labbra.
+
+È Wetzler! Il tuo compagno di fuga riappare dalle tenebre e ti regala un grande sorriso. Mai come in questo momento sei stato così contento di vederlo. Gli chiedi dove si fosse cacciato.
+
+«Oh, non preoccuparti. Anzi, seguimi. Ho una sorpresa».
+
+Sulla scorta dell'entusiasmo lo segui, senza chiederti se sia il caso di fidarti di un uomo che spunta fuori dal nulla senza essere visto da nessuno. Ma sembra abbia riferimenti precisi su dove andare, e in questo momento non puoi che fidarti di lui. E infatti, eccolo, al fianco di un edificio buio.
+
+«Qui dovrebbe essere aperto. Proviamo a entrare e riposarci un attimo».
+
+È sicuramente un invito allettante. Ed entri in una stanza meravigliosa, la più bella che potessi trovare. (colour:"red")[[Sei in una cucina]].
+
+
+:: Ma il piano non può funzionare senza l'aiuto di Wetzler {"position":"925,925","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Cammini lentamente nell'ombra, sperando che nessuno ti noti nel buio della notte. Qualche lampione getta sulla strada una luce estremamente tenue. 
+
+Mentri cerchi di serrarti le mascelle affinché nessuno senta il suono dei tuoi denti che battono, ti sposti da un angolo buio all'altro, con sicurezza.
+
+Ti sarai mosso in tutto di una ventina di metri quando, nella quiete placida di quella notte d'inizio primavera, senti un suono in lontananza. Non fai in tempo a rendertene conto, che già ti sei schiacciato contro il muro.
+
+Sono dei passi. Il loro rumore si distingue sempre di più.
+
+Qualcuno si sta avvicinando.
+
+Poi, all'improvviso, il suono si acquieta. Non riesci a distinguere chi sia, dal tuo rifugio, ma sai che, se superasse l'angolo, potrebbe vederti.
+
+Cosa fai?
+
+(colour: "yellow")[[Rimani nascosto dove sei. Qualunque movimento potrebbe attirare l'attenzione->2.1.A]].
+
+(colour: "yellow")[[Cerchi di capire come risolvere il problema. Ti prepari ad attaccare->2.1.B]].
+
+(colour: "yellow")[[Cerchi di osservare il problema da un'altra prospettiva. Forse quei passi potrebbero fungere da diversivo->2.1.C]].
+
+
+:: Manca poco {"position":"925,3775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_generatore.png">]
+
+(if:(history: where its name contains "11.B")'s length is 1)[No, tu e Wetzler non vi dividerete a un passo dalla fine, anche a costo di essere scoperti.](if:(history: where its name contains "11.C")'s length is 1)[Tu e Wetzler iniziate a ragionare sui pro e sui contro delle diverse decisioni, sempre sussurrando tutto a sottovoce, ma notate subito che le SS stanno aumentando i loro turni di guardia, e la loro presenza è sempre più frequente. Vi conviene darvi una mossa. E così fate.]
+
+Sempre muovendovi nell'ombra, riuscite ad avvicinarvi sempre più al (colour:"red")[[generatore della corrente esterna->Generatore sì Wetzler]].
+
+
+:: No. Non posso perdere ulteriore tempo. Il nostro obiettivo è l'unica cosa che conta {"position":"1475,675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->1.B]].
+
+(colour: "red")[[No, vorrei pensarci ancora->E c'è qualcosa che non quadra]].
+
+
+:: Non catturano Wetzler {"position":"1350,2775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(if:(history: where its name contains "14.A")'s length is 1)[Wetzler corre, ma non appena si rende conto che le guardie stanno arrivando, si butta per terra coprendosi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non lo vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da Wetzler e vanno oltre.](if:(history: where its name contains "14.B")'s length is 1)[Correte, ma non appena vi rendete conto che le guardie stanno arrivando, vi buttate per terra coprendovi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non vi vedano, così nascosti in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanche, forse distratte, forse alticce di birra, le guardie proseguono il loro cammino a pochi passi da voi e vanno oltre.](if:(history: where its name contains "14.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.](if:(history: where its name contains "15.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.]
+
+Tu e Wetzler rimanete così, bloccati, per qualche minuto. Quindi, vi stringete in un abbraccio e ridete sottovoce, con sollievo.
+
+(colour:"red")[[Tu e Wetzler siete ancora insieme]].
+
+
+:: Non sai bene come, ma sei riuscito a liberarti {"position":"1475,3275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_prigioniero-1.png">]
+
+Ancora stupito di come sia riuscito a fuggire dalla morsa (if:(history: where its name contains "7.A")'s length is 1)[di Mueller e Kasper](if:(history: where its name contains "7.B")'s length is 1)[di Mueller e Kasper](if:(history: where its name contains "7.C")'s length is 1)[di Mueller e Kasper](if:(history: where its name contains "8.C")'s length is 1)[del kapò], ti ritrovi in una zona del campo di concentramento stranamente familiare, nonostante il buio e gli occhi annebbiati dalla fatica.
+
+Sì, certo. Seguendo quella strada sterrata si arriva in direzione della stazione centrale, nei pressi della controllatissima (link-rerun:"Porta della morte")[(open-url:"https://www.alamy.it/la-porta-della-morte-stazione-ferroviaria-ingresso-del-campo-di-sterminio-di-auschwitz-birkenau-dietro-la-quale-si-trovavano-le-rampe-per-la-selezione-tutte-in-entrata-la-deportazione-di-treni-passati-attraverso-questa-porta-image247142243.html")]. Meglio starci alla larga. Tuttavia più in là, verso destra, dovrebbero esserci i magazzini degli strumenti da lavoro, dove tengono tenaglie, pinze e catene. Potrebbe fare al caso tuo.
+
+Rinvigorito da questo attimo di consapevolezza, ti muovi nel buio come un ratto. Le SS che vedi si spostano lentamente nei loro giri di ronda, oppure corrono verso (if:(history: where its name contains "7.A")'s length is 1)[Mueller e Kasper](if:(history: where its name contains "7.B")'s length is 1)[Mueller e Kasper](if:(history: where its name contains "7.C")'s length is 1)[Mueller e Kasper](if:(history: where its name contains "8.C")'s length is 1)[il kapò]. È il momento migliore per proseguire con il tuo piano di fuga.
+
+A distanza, però, risate tremende e gemiti di dolore ti fanno trasalire. Ti affacci oltre l'angolo che dà verso una strada laterale. Tre aguzzini stanno prendendo a calci un prigioniero, che è riverso a terra in una pozza mista di bava e fanghiglia.
+
+«Te l'avevo detto, sporco ebreo, che non era il caso di guardarmi di traverso».
+
+Una SS gli alza la testa per i capelli, quindi la spinge nella fanghiglia. Appena le bolle smettono di arrivare in superficie, la ritira su, con un indegno sadismo.
+
+Questa situazione ti spezza il cuore, ma la tua determinazione è ferma. Devi scappare, ma sai che lasciare quel pover'uomo al suo destino ti segnerà per sempre. Cosa fai?
+
+(colour:"yellow")[[[Mi spiace per lui, ma la mia missione è più importante. Lo lascio al suo destino->10.A]]].
+
+(colour:"yellow")[[[Non posso lasciar correre. Devo aiutarlo->10.B]]].
+
+(colour:"yellow")[[[Potrei creare un diversivo, anche se è rischioso->10.C]]]...
+
+
+:: Quindi, ti fiondi nella notte {"position":"2025,2900","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">]
+
+Ora dovrai farcela da solo.
+
+Con questo pensiero, e con un sentimento di tristezza e di determinazione, procedi nascondendoti nel campo, passando da un angolo scuro a un altro come uno scarafaggio. Nessuno sembra notarti, e non vedi anima viva in giro. La strada sembra stranamente libera.
+
+E non appena ti rilassi, pregustando finalmente una parte facile in questa fuga, ti si para davanti un uomo. Accidenti, hai superato l'angolo di un caseggiato senza prima controllare che non ci fosse nessuno! L'uomo ti appoggia le mani sulle spalle. Fai fatica a distinguerne il volto, ma indossa una giacca a (link-rerun:"strisce grigie e blu")[(open-url:"https://encyclopedia.ushmm.org/content/it/gallery/nazi-camps-artifacts")]. Inoltre, noti appuntato sul suo braccio un (link-rerun:"triangolo verde")[(open-url:"https://www.scuolaememoria.it/site/it/2018/10/15/triangolo/?rit=wiki-ricerca-tag")].
+
+Tra tutte le persone in cui potevi imbatterti, proprio in un (link-rerun:"kapò")[(open-url:"https://it.wikipedia.org/wiki/Kapo")]! I kapò sono criminali comuni prigionieri nei campi di concentramento, ma in quanto tedeschi sono trattati meglio degli ebrei. Spesso i kapò sono peggio delle SS. Non riesci a capire chi hai davanti, ma non ti sembra un volto sconosciuto.
+
+La tua fuga sembra sempre più compromessa. Il kapò ti stringe forte le spalle, senza parlare. Probabilmente aspetta che tu dica qualcosa.
+Cosa fai?
+
+(colour:"yellow")[[Non hai più nulla da perdere: gli racconti tutto->8.A]].
+
+(colour:"yellow")[[Non puoi fidarti di nessuno: provi a mentirgli->8.B]].
+
+(colour:"yellow")[[Ti osservi attorno per cercare una via di fuga->8.C]].
+
+
+:: Scappi ferito {"position":"1725,4375","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+Strisci oltre la recinzione, e corri per i campi di erba fresca. In lontananza l'alba segna un nuovo giorno, un giorno di libertà che hai cercato per tutta la notte.
+
+Tuttavia, il boato di un altoparlante ti fa correre un brivido lungo la schiena. Diverse SS si stanno riversando nel luogo del gabbiotto del generatore. Una di esse vi indica. Le altre, che imbracciano il fucile, prendono la mira. 
+
+La tua fuga è ora inframmezzata dai colpi di fucile che ti bersagliano. Nei campi è semplice seguire i tuoi movimenti. Cerchi di correre a zigzag per rendere il percorso più imprevedibile. Il campo è delimitato da un fossato: una volta coperto da quello, le pallottole non saranno più un problema. Almeno per un primo tempo.
+
+I tuoi pensieri però sono interrotti da un dolore lancinante che ti trafigge la spalla. Cadi a terra, e appoggi la mano sulla clavicola.
+
+Sei stato colpito
+
+Con un ultimo urlo disperato, ti alzi e corri verso il fossato, con gli occhi pieni di lacrime.
+
+E corri. (colour:"red")[[Con una ferità che ti resterà per sempre->FINALE]].
+
+
+:: Scappi illeso {"position":"1475,4375","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+Strisci oltre la recinzione, e corri per i campi di erba fresca. In lontananza l'alba segna un nuovo giorno, un giorno di libertà che hai cercato per tutta la notte.
+
+(colour:"red")[[Sei riuscito a sopravvivere->FINALE]].
+
+
+:: Sei in una cucina {"position":"1400,1925","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cucina.png">]
+
+Richiudi la porta dietro di te, cercando di limitare al massimo il rumori, quindi scivoli sotto il tavolaccio della cucina. Wetzler, dietro di te, ti segue, ma fa rumore. È sempre stato più grosso e goffo: tutti quei muscoli, adesso, non aiutano. Ma sembra che l'atmosfera sia assolutamente immobile: di lontano si sentono soltanto i suoni del campo di concentramento notturno. Una guardia sta camminando in strada: senti il suono dei suoi scarponi calpestare le foglie infangate appena fuori dalla porta. Siete scappati per un pelo.
+
+Passati pochi ma interminabili secondi, tu e Wetzler uscite dal vostro nascondiglio e, sempre a carponi, provate ad aprire qualche scaffale della grande cucina davanti a voi. Sul bancone ci sono solo sale, zucchero e caffé. Nonostante siate arrivati in cucina, sembra che il cibo sia sparito. Wetzler impreca contro un armadio chiuso da un pesante lucchetto, che sta cercando di forzare con una forchetta. Ricordi al tuo compagno di fare silenzio, ma sembra che la fame sia l'unica cosa che lo spinge. Un po' lo comprendi.
+
+Nell'aprire una credenza, un odore dolciastro ti investe. Nascoste dietro altre vettovaglie, noti tre patate. Le avvicini agli occhi: non capisci il loro stato. Sicuramente non sono fresche, ma potrebbero essere ancora commestibili.
+
+Con l'acquolina in bocca, ti volti verso Wetzler, ancora intento, questa volta con un coltello, ad aprire l'anta dell'armadio. Tre patate sono ben poca cosa, ma anche lui, come te, sta cercando di placare i morsi della fame. Certo, magari facesse meno baccano...
+
+Sei combattuto. Condividi quello che hai trovato con Wetzler o sfami solo te stesso?
+
+(colour:"yellow")[[Non posso non condividerlo con il mio compagno. Gli mostro il bottino->5.A]].
+
+(colour:"yellow")[[Non so quanto durerà questo inferno. Meglio tenere tutto per me->5.B]].
+
+(colour:"yellow")[[L'odore di queste patate non mi convince. Meglio non mangiarle ed evitare di star male->5.C]].
+
+
+
+:: Smistamento 2 {"position":"1475,2650","size":"100,100"}
+(go-to: (either: "Non catturano Wetzler","Non catturano Wetzler","Catturano Wetzler ma non ti tradisce","Catturano Wetzler e ti tradisce"))
+
+
+:: Sì. Qualunque cosa sia successa, dobbiamo fuggire insieme {"position":"925,675","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Hai fatto una scelta. Confermi la tua decisione?
+
+(colour: "red")[[Sì, confermo->1.A]].
+
+(colour: "red")[[No, vorrei pensarci ancora->E c'è qualcosa che non quadra]].
+
+
+:: Ti senti sempre più vicino alla fuga {"position":"2025,3525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_treno.png">]
+
+Non fai in tempo (if:(history: where its name contains "13.A")'s length is 1)[a rispondere al kapò](if:(history: where its name contains "13.B")'s length is 1)[a rispondere al kapò](if:(history: where its name contains "13.C")'s length is 1)[a rispondere al kapò](if:(history: where its name contains "13.A")'s length is 1)[a gioire per aver trovato la tenaglia] che senti un fischio potente venire di lontano.
+
+Ti rendi conto in un attimo di essere nei pressi della Porta della Morte, l'ingresso al campo dei treni che trasportavano migliaia di ebrei. Gli stessi treni, poi, uscivano con le materie prime e i prodotti lavorati all'interno del campo. 
+
+Il fischio è segnale di un treno che arriva o che parte, ma in questo caso la vicinanza rende inutile dirimere la questione. C'è un treno in partenza, di notte, dal campo di concentramento!
+
+Se scattassi adesso potresti riuscire, nel migliore dei casi, a salire in groppa a uno di quei grandi cargo, e nasconderti fino a essere abbastanza lontano da quell'inferno. Certo, l'idea è bella, ma la sua attuazione è molto più complessa. Ci saranno guardie a controllare la stazione? Plausibile. È possibile raggiungere il treno per tempo? Probabile. Si può salire su uno degli ultimi vagoni strisciando tra l'erba nei pressi dei binari? Forse.
+
+Le incognite sono tante, ma la possibilità di una fuga facile ti fa venire l'acquolina in bocca. Rinvigorito, ti avvicini alla porta centrale scivolando nel buio delle ombre. Sì, confermi. C'è un treno in partenza. Cosa fai?
+
+(colour:"yellow")[[[Provi a salire. Non vuoi rimanere ad Auschwitz un secondo di più->17.A]]].
+
+(colour:"yellow")[[[Cerchi di capire dove vada il treno in stazione->17.B]]].
+
+(colour:"yellow")[[[Questo piano ha troppe incognite. Lasciamo perdere->17.C]]].
+
+
+:: Tiri indietro la testa {"position":"1750,3150","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_kapo.png">]
+
+Ti guardi attorno cercando di trovare vie di fuga, ma non ce ne sono. Preso dalla disperazione, tiri indietro la testa e scagli la testata più forte e violenta che puoi sulla faccia del malcapitato kapò. 
+
+Il kapò lancia un grido e sputa di lato, e molla la presa alle tue spalle.
+
+Fuori dalla sua morsa, (colour:"red")[[corri più veloce che puoi ->Non sai bene come, ma sei riuscito a liberarti]].
+
+
+
+:: Tu e Wetzler siete ancora insieme {"position":"925,2775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_cane.png">]
+
+Le guardie si sono allontanate. Tu e Wetzler siete sollevati, ma sapete bene che la strada per la fuga vi riserverà ancora molte sfide. Tuttavia, sapete dove dovete andare.
+
+Il gabbiotto che contiene gli attrezzi da lavoro si trova infatti a poco distanza. Per arrivarci, bisogna però attraversare un fossato. Una profonda depressione del terreno è infatti lì, posta in mezzo alla strada, ma dal vostro lato non vedete alcun mezzo per poterla attraversare. Dall'altra parte, invece, diverse assi di legno possono fare al vostro caso. Ma come raggiungerle?
+
+Per fortuna, Wetzler sembra essersi ripreso, e ha mantenuto la sua forza. Prende qualche passo di rincorsa e con un balzo felino atterra dall'altra parte. Bene, la parte difficile è passata.
+
+O almeno così sembrava. Un ringhio sommesso fa tremare l'aria. Da dietro una piccola montagna di terra scavata esce un enorme (link-rerun:"cane lupo")[(open-url:"https://www.repubblica.it/venerdi/2021/03/11/news/nazisti_animalisti_hitler_vegetariano_bestiario_nazista_mohnhaupt-289755685/")], dai denti bianchissimi e lo sguardo famelico. La bestia viene usata per spaventare i prigionieri, e non è detto che qualche malcapitato non sia diventato il suo giocattolo per qualche periodo.
+
+Il cane è legato da una pesante catena a un palo. Non dovrebbe essere un problema, se non fosse che in quel momento ti ricordi di un episodio. Qualche tempo fa, Wetzler ti raccontò della sua infanzia, relativamente felice, non fosse per quella volta che è rimasto ferito dal cane di un vicino mentre stava giocando a palla. Quell'evento lo aveva traumatizzato nel profondo, diceva, tanto che anche adesso il solo verso dell'animale bastava ad annichilirlo.
+
+E a quanto pare, aveva ragione. Le spalle di Wetzler iniziano a tremare. Si gira lentamente verso di te, con lo sguardo più spaventato che tu abbia mai visto. Al confronto, le guardie di prima sembravano un pericolo abbastanza indifferente. Wetzler è completamente bloccato, ma senza il suo aiuto non puoi riuscire ad andare dall'altra parte. 
+
+Cosa fai?
+
+(colour:"yellow")[[Sostieni Wetzler come puoi, motivandolo-> 6.A]].
+
+(colour:"yellow")[[Gli fornisci indicazioni su come affrontare l'animale-> 6.B]].
+
+(colour:"yellow")[[Cerchi di raggiungerlo saltando il fossato-> 6.C]].
+
+
+:: Vi dividete {"position":"1200,3775","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_wetzler.png">]
+
+Tu e Wetzler vi fate un ultimo cenno d'intesa.
+
+Il tuo compagno sbuca fuori da un cespuglio e si mette a correre in direzione ovest. Tu andrai verso est, e se tutto va bene, (colour:"red")[[vi ritroverete al generatore]].
+
+
+:: Vittoria con Wetzler {"position":"900,4250","size":"100,100"}
+(set: $Allerta to ($Allerta1 + $Allerta2 + $Allerta3 + $Allerta4 +$Allerta5 + $Allerta6 + $Allerta7 + $Allerta8))(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+(if:(history: where its name contains "12.A")'s length is 1)[Tu e Wetzler decidete che è il caso di attendere che la pioggia diminuisca. Vi infilate all'interno del gabbiotto del generatore e vi nascondete sotto un tavolaccio polveroso. La stanchezza si fa sentire e ti appisoli. Ti svegli con un sussurro di Wetzler: «Walter, guarda. La pioggia sta diminuendo».
+
+Sopreso dalla pioggerellina sottile, ma soprattutto dalle prime luci dell'alba in lontananza, ti rechi fuori dall'abitacolo. Giri un paio di valvole del generatore, connetti uno spinotto, schiacci qualche tasto, finché non senti sfrigolare l'intero meccanismo.](if:(history: where its name contains "12.B")'s length is 1)[Mostri a Wetzler il manuale di istruzioni completamente inzuppato e scuoti il capo. Wetzler fa un sorrisetto: «Ora tocca a me» dice. Gira un paio di valvole del generatore, connette uno spinotto, schiaccia qualche tasto, finché non senti sfrigolare l'intero meccanismo.](if:(history: where its name contains "12.C")'s length is 1)[Al diavolo la pioggia. La fine è vicina, e non vuoi perdere un secondo di più. Giri un paio di valvole del generatore, connetti uno spinotto, schiacci qualche tasto, finché non senti sfrigolare l'intero meccanismo.] 
+
+Ti allontani e senti una leggera esplosione. Il generatore è saltato, sì, e adesso sta fumando, ma la corrente si è spenta in tutto il settore. Le guardie controlleranno presto cosa sta succedendo, non avete un secondo da perdere. Iniziate a manovrare la tenaglia in quella porzione di recinzione coperta dall'abitacolo del generatore, per nascondervi. La tenaglia è dura e arrugginita, e il lavoro è più lento del previsto.
+
+Ma ci riuscite.
+
+
+(colour: "red")[(if: $Allerta is 0)[[Siete fuori dal campo->Wetzler vive]](if:$Allerta is 1)[[Siete fuori dal campo->Wetzler vive]](if:$Allerta is 2)[[Siete fuori dal campo->Wetzler muore]](if:$Allerta is 3)[[Siete fuori dal campo->Wetzler muore]](if:$Allerta is 4)[[Siete fuori dal campo->Wetzler muore]]].
+
+
+
+:: Vittoria senza Wetzler {"position":"1600,4250","size":"100,100"}
+(set: $Allerta to ($Allerta1 + $Allerta2 + $Allerta3 + $Allerta4 +$Allerta5 + $Allerta6 + $Allerta7 + $Allerta8))(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+
+(if:(history: where its name contains "16.A")'s length is 1)[Decidi che è il caso di attendere che la pioggia diminuisca. Ti infili all'interno del gabbiotto del generatore e ti nascondete sotto un tavolaccio polveroso. La stanchezza si fa sentire e ti appisoli. Ti svegli sopreso dal rumore della pioggerellina sottile, ma soprattutto dalle prime luci dell'alba in lontananza. Ti rechi fuori dall'abitacolo. Giri un paio di valvole del generatore, connetti uno spinotto, schiacci qualche tasto, finché non senti sfrigolare l'intero meccanismo.](if:(history: where its name contains "16.B")'s length is 1)[Provi a tornare indietro, ma è notte fonda, e soltanto le guardie in quel momento seguono il loro percorso di pattugliamento. Torni indietro e decidi che è il caso di attendere che la pioggia diminuisca. Ti infili all'interno del gabbiotto del generatore e ti nascondete sotto un tavolaccio polveroso. La stanchezza si fa sentire e ti appisoli. Ti svegli sopreso dal rumore della pioggerellina sottile, ma soprattutto dalle prime luci dell'alba in lontananza. Ti rechi fuori dall'abitacolo. Giri un paio di valvole del generatore, connetti uno spinotto, schiacci qualche tasto, finché non senti sfrigolare l'intero meccanismo.](if:(history: where its name contains "16.C")'s length is 1)[Al diavolo la pioggia. La fine è vicina, e non vuoi perdere un secondo di più. Giri un paio di valvole del generatore, connetti uno spinotto, schiacci qualche tasto, finché non senti sfrigolare l'intero meccanismo.] 
+
+Ti allontani e senti una leggera esplosione. Il generatore è saltato, sì, e adesso sta fumando, ma la corrente si è spenta in tutto il settore. Le guardie controlleranno presto cosa sta succedendo, non hai un secondo da perdere. Inizi a manovrare la tenaglia in quella porzione di recinzione coperta dall'abitacolo del generatore, per nasconderti. La tenaglia è dura e arrugginita, e il lavoro è più lento del previsto.
+
+Ma ci riesci.
+
+(colour: "red")[(if: $Allerta is 0)[[Sei fuori dal campo->Scappi illeso]](if:$Allerta is 1)[[Sei fuori dal campo->Scappi illeso]](if:$Allerta is 2)[[Sei fuori dal campo->Scappi ferito]](if:$Allerta is 3)[[Sei fuori dal campo->Scappi ferito]](if:$Allerta is 4)[[Sei fuori dal campo->Scappi ferito]]].
+
+
+:: Wetzler muore {"position":"1025,4375","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+Strisciate oltre la recinzione, e correte per i campi di erba fresca. In lontananza l'alba segna un nuovo giorno, un giorno di libertà che avete cercato per tutta la notte.
+
+Tuttavia, il boato di un altoparlante vi fa correre un brivido lungo la schiena. Diverse SS si stanno riversando nel luogo del gabbiotto del generatore. Una di esse vi indica. Le altre, che imbracciano il fucile, prendono la mira. Urli a Wetzler di scappare e non guardarsi indietro, e corri.
+
+La vostra fuga è ora inframmezzata dai colpi di fucile che vi bersagliano. Nei campi è semplice seguire i vostri movimenti. Cerchi di correre a zigzag per rendere il tuo percorso più imprevedibile. Il campo è delimitato da un fossato: una volta coperti da quello, le pallottole non saranno più un problema. Almeno per un primo tempo.
+
+I tuoi pensieri però sono interrotti da un urlo. Ti giri.
+
+Wetzler è riverso a terra. Si tiene una spalla con la mano.
+
+Ti guarda con gli occhi pieni di lacrime.
+
+Urla: «Vai!».
+
+E tu corri. (colour:"red")[[Anche tu, con le lacrime agli occhi->FINALE]].
+
+
+:: Wetzler rimane con te {"position":"925,2650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(if:(history: where its name contains "14.A")'s length is 1)[Wetzler corre, ma non appena si rende conto che le guardie stanno arrivando, si butta per terra coprendosi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non lo vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da Wetzler e vanno oltre.](if:(history: where its name contains "14.B")'s length is 1)[Correte, ma non appena vi rendete conto che le guardie stanno arrivando, vi buttate per terra coprendovi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non vi vedano, così nascosti in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da voi e vanno oltre.](if:(history: where its name contains "14.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.](if:(history: where its name contains "15.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.]
+
+Tu e Wetzler rimanete così, bloccati, per qualche minuto. Quindi, vi stringete in un abbraccio e ridete sottovoce, con sollievo.
+
+(colour:"red")[[Tu e Wetzler siete ancora insieme]].
+
+
+:: Wetzler ti lascia perché non ha fiducia {"position":"1925,2650","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie.png">]
+
+(if:(history: where its name contains "14.A")'s length is 1)[Wetzler corre, ma non appena si rende conto che le guardie stanno arrivando, si butta per terra coprendosi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non lo vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da Wetzler e vanno oltre.](if:(history: where its name contains "14.B")'s length is 1)[Correte, ma non appena vi rendete conto che le guardie stanno arrivando, vi buttate per terra coprendovi la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non vi vedano, così nascosti in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da voi e vanno oltre.](if:(history: where its name contains "14.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.](if:(history: where its name contains "15.C")'s length is 1)[Corri, ma non appena ti rendi conto che le guardie stanno arrivando, ti butti per terra coprendoti la testa con le braccia.
+
+È un tentativo ridicolo: è difficile che non ti vedano, così nascosto in bella vista al lato della strada, nei pressi della recinzione.
+
+Eppure, forse perché stanchi, forse distratti, forse alticci di birra, le guardie proseguono il loro cammino a pochi passi da te e vanno oltre.]
+
+Tu e Wetzler vi ricongiungete. Wetzler ti guarda con uno sguardo obliquo.
+
+«Ho capito chi sei - dice -sei il classico uomo che pensa solo a se stesso».
+
+(if:(history: where its name contains "1.B")'s length is 1)[«Quando ti sei svegliato senza di me, immagino avrai pensato che forse fosse stato meglio così».](if:(history: where its name contains " 5.B")'s length is 1)[«Pensi che non abbia notato che ti sei sfamato a mia insaputa, senza offrirmi neanche una patata?».](if:(history: where its name contains "14.A")'s length is 1)[«E ques'ultima mossa di cercare rifugio da solo - dice Wetzler - è stata veramente schifosa».]
+
+Scuote il capo: «Mi spiace, da adesso ce la dovrai fare da solo. Io mi arrendo».
+
+Rimani impietrito. (colour:"red")[[Wetzler se n'è andato->Quindi, ti fiondi nella notte]].
+
+
+:: Wetzler vive {"position":"775,4375","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_fuga.png">]
+
+Strisciate oltre la recinzione, e correte per i campi di erba fresca. In lontananza l'alba segna un nuovo giorno, un giorno di libertà che avete cercato per tutta la notte.
+
+(colour:"red")[[Siete riusciti a sopravvivere->FINALE]].
+
+
+:: Wetzler, che succede? {"position":"1400,2300","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_campo.png">]
+
+Wetzler è a terra. Sempre guardandoti attorno, torni indietro. Wetzler si gira su un fianco. Ha il respiro affannoso. Provi a metterlo seduto, appoggiandogli la schiena contro il muro.
+
+«Scusa... ho solo un giramento di testa» biascica Wetzler. «Dammi qualche minuto per riposare. Dopo ripartiremo».
+
+Le labbra di Wetzler sono bianche, il sudore freddo, gli occhi arrossati e pallidi. Chissà da quanto non mangia e non beve, chissà da quanto non si riposa. Gli carezzi la testa cercando di fargli forza, e lui sorride. Ma sei combattuto: Wetzler rischia di essere un peso morto per la riuscita del piano. D'altra parte, se davvero si riprendesse, il suo supporto potrebbe essere fondamentale.
+
+Anche adesso, devi prendere una decisione.
+
+(colour:"yellow")[[Non hai un minuto da perdere, potrebbero trovarvi da un momento all'altro. Non puoi che lasciarlo lì->15.A]].
+
+(colour:"yellow")[[Cerchi qualcuno che possa prendersi cura di lui. Te ne andrai solo dopo->15.B]].
+
+(colour:"yellow")[[Non puoi abbandonare Wetzler. È tuo amico. Deve venire con te->15.C]].
+
+
+:: ad ogni costo {"position":"1200,400","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Ecco il piano. Tu e Wetzler, nel tornare dai campi di lavoro, avreste atteso un momento di distrazione delle guardie carcerarie, e vi sareste infilati nell'incavo lasciato dalle travi nella catasta di legno. Lì sareste rimasti per circa tre giorni, il tempo che di solito viene dedicato all'ispezione del campo di concentramento. Con un po' di fortuna, non vi avrebbero scoperto in quell'angolo remoto di Auschwitz.
+
+Dopo tre giorni, infatti, le (link-rerun:"SS-TV")[(open-url:"https://it.wikipedia.org/wiki/SS-Totenkopfverb%C3%A4nde")] avrebbero delegato la ricerca alle guardie di pattuglia esterne al campo, permettendovi maggior movimento. A quel punto, bastava recarsi nel gabbiotto dove era tenuto il generatore che forniva energia elettrica al filo spinato, mandarlo in tilt, quindi uscire, scavalcando o tagliando la recinzione in metallo con una tenaglia. Era un piano pieno di falle, ma comunque un piano, e dovevate fare in modo che funzionasse.
+
+Dopo due giorni stesi in silenzio, al buio, stretti e senza muovervi, con la temperatura che di notte sfiorava lo zero, avete atteso in quella catacomba di legno. Vi cibavate di quel poco che eravate riusciti a intascarvi durante il rancio, e attendevate, mentre a distanza sentivate il suono delle pistole di quelli che venivano fucilati a causa della vostra fuga. Una ventina di spari, per dissuadere chiunque dal prendere una decisione affine alla vostra.
+
+Ora, però, è notte. Sei sveglio, ma non sai quanto hai dormito.
+
+(colour: "red")[[E c'è qualcosa che non quadra]].
+
+
+:: corri più veloce che puoi {"position":"1475,3150","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_guardie2.png">]
+
+
+(if:(history: where its name contains "7.A")'s length is 1)[Mentre le due guardie si scambiano occhiate d'odio, ne approfitti per divincolarti. La guardia che ti sta trattenendo cerca di assestarti un pugno alla bocca dello stomaco, ma riesci a svicolarti e rispondi con un calcio nel basso ventre. L'altra SS, intanto, ha tirato fuori la pistola e sta armando il cane. Con un altro calcio, fai cadere indietro la prima guardia, che a sua volta urta la seconda, e gli fa perdere l'equilibrio. La pistola spara un colpo in aria.
+
+Scappi via. Dietro di te, le guardie si lanciano insulti in tedesco. Quindi, senti il suono di un fischietto perforare l'aria. Ormai tutti sanno che sei qui, libero. 
+
+L'allerta è altissima.](if:(history: where its name contains "7.B")'s length is 1)[Le guardie ti stanno scortando verso le prigioni. Mentre Mueller cammina davanti a te e Kasper ti sostiene con un braccio, ti viene un'idea disperata. Mentre entrambi sono distratti, fai uno sgambetto a Mueller, che rotola malamente per terra. La scena, se non fosse per il contesto decadente, sarebbe esilarante. E infatti Kasper cerca di trattenere, vanamente, una risata, che invece esplode fragorosa.
+
+Mueller si rialza. È rosso in volto per la rabbia. Viene con passo veloce verso di voi. Sembra un toro impazzito. Chiudi gli occhi dalla paura. Ma la guardia ti supera senza degnarti di uno sguardo. Va dritto verso Kasper, gli si piazza davanti e con un movimento estremamente rapido gli rifila una ginocchiata sotto lo sterno.
+
+«Ora hai esagerato - dice Mueller, sputando a terra - ma sappi che mi sei sempre stato sulle...». Non riesce però a concludere la frase, perché Kasper reagisce con un violento pugno nel viso. Ne nasce una lite furibonda. 
+
+In quel momento, nessuno si ricorda più di te. E ne approfitti, allontanandoti a passo svelto.](if:(history: where its name contains "7.C")'s length is 1)[Le guardie ti stanno scortando verso le prigioni. Mentre Mueller cammina davanti a te e Kasper ti sostiene con un braccio, noti che vi state avvicinando a diversi edifici ammassati uno dietro l'altro, che lasciano però lo spazio per alcuni vicoli bui. Ti rendi conto che quella potrebbe essere l'unica possibilità per fuggire.
+
+Non appena camminate a fianco di uno di questi vicoli, pianti una gomitata improvvisa sotto lo sterno di Kasper, che si piega a terra emettendo un gemito di dolore, quindi ti butti nel buio.
+
+Corri a perdifiato, ma senti dietro di te le esplosioni di colpi di pistola. I proiettili ti sibilano sopra la testa mentre svolti oltre l'edificio e prosegui verso una meta sconosciuta, basta che sia il più lontano possibile da lì.]
+
+(colour:"red")[[Non sai bene come, ma sei riuscito a liberarti]].
+
+
+:: l'ispirazione {"position":"1200,275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Avete deciso di nascondervi lì, prima di evadere. L'obiettivo finale è recarsi dalle autorità delle truppe degli (link-rerun:"Alleati")[(open-url:"https://encyclopedia.ushmm.org/content/it/article/axis-powers-in-world-war-ii#:~:text=Alle%20potenze%20dell'Asse%20(Germania,Stati%20Uniti%20e%20Unione%20Sovietica).&text=Durante%20la%20Seconda%20Guerra%20Mondiale%2C%20altre%20cinque%20nazioni%20si%20unirono,%2C%20Bulgaria%2C%20Slovacchia%20e%20Croazia.")], e lì raccontare quello che stava succedendo nel Reich. Dopo un primo censimento, tutte le persone ebree o di origine ebraica della Germania - e dei territori annessi - erano state caricate su grandi (link-rerun:"treni")[(open-url:"https://it.wikipedia.org/wiki/Treni_della_morte#:~:text=I%20treni%20della%20morte%20erano,concentramento%2C%20di%20lavoro%20o%20di")] e, schiacciati come delle bestie d'allevamento, trasportati nei tanti campi di lavoro sparsi sul territorio. Lì, privati di ogni bene, gli ebrei erano costretti ai lavori forzati, picchiati, stuprati, uccisi per il puro diletto delle guardie naziste.
+
+Bisognava che tutto il mondo sapesse cosa stava succedendo.
+
+Tu e Wetzler avete passato interi mesi a contare il numero di treni che entravano, con scadenze regolari, dentro i tetri confini di quell'inferno. Avete appuntato mentalmente il numero di quelli che scendevano dai vagoni, di quelli che venivano inviati nelle baracche dove avrebbero presto appreso le regole di questo posto terribile, e anche il numero di quelli che, inviati in altre stanze, non facevano invece più ritorno.
+
+Le vostre informazioni sono importantissime, vitali. Dovete fuggire, (colour: "red")[[ad ogni costo]].
+
+
+:: non possiamo evadere {"position":"1150,1500","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+L'informazione di Wetzler ti cade sulle spalle come una doccia fredda.
+
+Sai bene però che arrendersi non è possibile. Ormai le SS vi danno per dispersi, e ritrovarvi nuovamente all'appello dell'indomani significherebbe interrogatori, torture e, nel migliore dei casi, una morte veloce. Bisogna proseguire.
+
+Inoltre, è vero che Wetzler è un compagno, ma lo conosci da poco tempo per poter essere completamente sicuro delle sue buone intenzioni. Se fosse in combutta con le guardie? Se volesse scoprire i miei dati su Auschwitz prima di potermi catturare?
+
+Scacci i pensieri scuotendo la testa. Il dubbio, però, è un tarlo che si annida nel cervello.
+
+«Intanto, cerchiamo un posto all'interno dove ripensare il piano - dice Wetzler -, qui fuori, sotto la pioggia, rischiamo soltanto di ammalarci».
+
+Ha ragione. Ma dove? La porta dell'edificio più vicino è serrata e, tra il buio, la stanchezza e la confusione, fai fatica a riconoscere dove ti trovi.
+
+E in quel momento, quando tutto sembrava esser finito prima di cominciare, (colour:"red")[[una speranza]].
+
+
+:: noti qualcosa vicino a te {"position":"1725,1550","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Spazzatura, rottami, pezzi di legno e altre cianfrusaglie alla rinfusa erano sparse per terra, schifo. Nel silenzio, si sentono denti di ratti masticare, e zampette che si muovono e squittii.
+
+Ma lì in mezzo, il tuo sguardo si ferma su quella che sembra una semplice cartaccia. Ma ti avvicini, e la apri.
+
+È una mappa: (link-rerun:"la mappa del campo")[(open-url:"https://encyclopedia.ushmm.org/content/it/map/auschwitz-ii-birkenau-camp-summer-1944")]!
+
+L'entusiasmo però dura poco. Ti rendi conto che, oltre a non conoscere la tua posizione, la cartina, stropicciata e sporca, ha una grossa macchia su un angolo che la invade parzialmente. È possibile riconoscere qualcosa, specie l'edificio della cucina, e a solo leggerne la parola il tuo stomaco brontola. Ma poco altro.
+
+Cosa fai?
+
+(colour: "yellow")[[La segui, anche se ne capisci poco. Non hai altro->3.2.A]].
+
+(colour: "yellow")[[È illeggibile. Meglio scartarla->3.2.B]].
+
+(colour: "yellow")[[Magari ce n'è un'altra completa. Provi a cercare->3.2.C]].
+
+
+:: nuovo, singolare edificio {"position":"925,1925","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_finestraridotta.png">]
+
+«Ehi, Walter, riconosci questo edificio?»
+
+Come non riconoscere l'ampio edificio delle cucine del campo di concentramento, dove ci preparano gli ottimi ranci composti principalmente da un pezzo di pane tra i 150 e i 300 grammi, un po' d'acqua e della zuppa sulla quale galleggivano vermi, piselli secchi o carne decomposta. Ma in questo preciso, anche quel menù mi sarebbe parso un pasto da re.
+
+Io e Wetzler riusciamo a spostarci su un muro laterale. Ad altezza busto svetta solitaria una finestra: non fosse dall'altra parte della strada, si potrebbe tentare di forzarla. Ma la via, ampia e illuminata, pur deserta, è abbastanza centrale nel campo, e di lontano si sente un vociare in tedesco stretto e qualche risata. Probabilmente ci sono delle guardie, qui vicino.
+
+All'interno della finestra scorgi una maniglia per l'ingresso. Non sarebbe complicato riuscire ad accedere, una volta rotta la finestra. Vicino a te noti dei sassi: ne raccogli uno e lo soppesi. Dopodiché, chiudendo l'occhio destro, miri al vetro eh...
+
+//CLASH//
+
+Colpisci uno degli stipiti d'acciaio della finestra. La strana si riempie del rimbombo sordo del metallo. Tuttavia, le guardie pare non se ne siano accorte. Certo, il rumore non era lieve. Chissà, forse le guardie stanno bevendo o giocando a carte, e non fanno particolarmente attenzione.
+
+«Ma sei pazzo? - chiede Wetzler - Così ci scoprono!».
+È vero, il rischio è presente. Ma anche la fame e lo sconforto lo sono, e in quel momento entrare in cucina sembra essere l'unica cosa che conta.
+Prendi un altro sasso, e pensi alle prossime mosse. Cosa fai?
+
+(colour:"yellow")[[Prendi quattro sassi e li lanci tutti insieme, così hai più probabilità di colpire il vetro e il rumore si sentirà una volta sola->4.A]].
+
+(colour: "yellow")[[Tiri un sasso per volta, ma ti fermi se noti che le guardie stanno facendo caso al rumore->4.B]].
+
+(colour:"yellow")[[Il rischio è troppo alto. Non vale la pena entrare in cucina per farsi beccare->4.C]].
+
+
+
+:: proseguiamo con le ultime scelte {"position":"1200,4975","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)(if:(history: where its name contains "Tu e Wetzler siete ancora insieme")'s length is 1)[''Il cane lupo''
+Motivare Wetzler non sarebbe efficace. Wetzler è già ben motivato a fuggire, ma la fobia dei cani è evidente così come la mancanza di praticità nel gestire i loro comportamenti. Wetzler non ha solo bisogno di sapere come contrastare il cane, ma anche di sapere che ce la può fare, pena la perdita di fiducia in se stesso e il rischio di sentirsi inutile nelle successive prove. Per la stessa ragione, anche sostituirsi a Wetzler saltando la fossa non è la scelta migliore.](if:(history: where its name contains "Adesso anche tu vieni con noi")'s length is 1)[''Le due SS Mueller e Kasper''
+La situazione è disperata, ma hai delle informazioni. Lavorare su queste ti permette di prendere delle decisioni più efficaci: leggere il presente è una capacità importante. I due hanno una relazione ostile: istigarli l’uno contro l’altro potrebbe essere una valida strategia, sicuramente migliore che reagire con la violenza contro due guardie forti e ben equipaggiate.](if:(history: where its name contains "Quindi, ti fiondi nella notte")'s length is 1)[''Il kapò''
+La situazione è disperata, ma hai delle informazioni. Lavorare su queste ti permette di prendere delle decisioni più efficaci: leggere il presente è una capacità importante. Anzitutto, pur essendo in combutta con le SS, il kapò è un prigioniero come te. Cercare una via di fuga quando ti si para davanti una persona di sorpresa è sicuramente un’ipotesi difficile da considerare. Non fidarsi ti precluderebbe la possibilità di ricevere supporto o informazioni, e in questa circostanza raccontare il tuo piano potrebbe tornare comodo anche a lui. Fidarsi rimane, per quanto paradossale, la scelta migliore.]
+
+(if:(history: where its name contains "Adesso potete andare al magazzino degli attrezzi")'s length is 1)[''Chi prende la tenaglia?''
+Per quanto possano esserci tanti criteri di scelta razionali (Wetzler era appena scappato dal cane, tu eri stanco per tutta la fatica della nottata), ognuno di questi poteva essere dannoso per il presente e il futuro del gruppo, e avrebbe generato una potenziale frattura tra Wetzler e te. Entrambi avete ragioni per non entrare nel gabbiotto, quindi potete potenzialmente entrarci entrambi. Per evitare quindi di scontentare qualcuno, la scelta casuale “tirando a sorte” è la migliore.](if:(history: where its name contains "corri più veloce che puoi")'s length is 1)[''Il prigioniero picchiato dalle SS''
+La ragione del cuore dice che bisogna salvare il compagno in difficoltà. Eppure, a conti fatti, le uniche ragioni pratiche per cui valga la pena rischiare di essere catturato sono: che il prigioniero abbia informazioni rilevanti, cosa impossibile da sapere a priori; che possa aiutare in qualche modo la tua fuga: un’eventualità remota; oppure che tu non riesca a vivere la vita con il rimorso di averlo abbandonato. Sicuramente, anche creare un diversivo è un rischio con un’alta probabilità di insuccesso.](if:(history: where its name contains "È una tenaglia")'s length is 1)[''Le informazioni del kapò''
+Non sai se il kapó dica o meno la verità né se gli alleati faranno breccia. Con il senno di poi, sai che sarebbero arrivati, ma al tempo della storia no. La scelta di arrendersi, o anche solo di prendere tempo, rischia di portare più danni che benefici. La migliore scelta è sfruttare comunque l’occasione di raccogliere informazioni dal kapo, ma poi procedere comunque con la fuga, perché potrebbe essere un’occasione irripetibile. La scelta di restare potrebbe essere altrettanto imprudente: non sai cosa ti aspetta nel futuro.]
+
+(if:(history: where its name contains "trovi una tenaglia")'s length is 1)[''Separarsi per aumentare le chance di fuga''
+Non ha senso separarsi una volta ottenuta la tenaglia: solo una persona può portarla con sé, e questo potrebbe bastare per non scegliere le altre strade. Inoltre, ragionare sui pro e sui contro, in una situazione altamente critica, potrebbe far perdere tempo prezioso. Focalizzarsi sull’obiettivo principale è importante, e tutto l’aiuto possibile è necessario, soprattutto non avendo idea di cosa potrebbe succedere. Meglio non separarsi.](if:(history: where its name contains " Aiuti l'uomo")'s length is 1)[''Witold Pilecki''
+Sei nella condizione di non aver bisogno di fidarti completamente di Witold Pilecki: il rapporto di forza è a tuo vantaggio. Ciò non significa che ignorarlo sia la scelta corretta: avere informazioni rilevanti è sempre utile, e il ferito ha più bisogno di te di quanto tu di lui. Perciò trarne il maggior numero di informazioni, vagliando quelle che possono essere più utili, è la decisione migliore.](if:(history: where its name contains "Ti senti sempre più vicino alla fuga")'s length is 1)[''Il treno''
+Avere la flessibilità di poter cambiare il piano per avvicinarti al tuo obiettivo è sicuramente una dote importante. Alle volte questa flessibilità impone di prendere decisioni rischiose, come salire sul treno senza sapere dove conduce, ma sapendo che porterà fuori da Auschwitz. Cercare di salire sul treno è la scelta migliore.]
+
+(if:(history: where its name contains "Generatore sì Wetzler")'s length is 1)[''Il generatore''
+Sei a un passo dalla fine. Il generatore è stato posto all’esterno, forse appunto perché non influenzato in alcun modo dalle piogge. Inoltre, qualora tu non fossi in grado di manovrarlo, hai comunque la fortuna di non essere da solo. Delegare a qualcun altro di fiducia, quando non ci si sente sicuri, è un gesto di umiltà feconda. Attendere, invece, non può aprire a scenari positivi. Cedere a Wetzler il comando è la scelta migliore.](if:(history: where its name contains "Generatore no Wetzler")'s length is 1)[''Il generatore''
+Sei a un passo dalla fine. Il generatore è stato posto all’esterno, forse appunto perché non influenzato in alcun modo dalle piogge, tuttavia non puoi esserne sicuro. Tornare indietro nella speranza di trovare qualcuno cui chiedere aiuto, in un momento di massima allerta, è un rischio che apre a troppi scenari negativi: e se non trovassi nessuno? E se trovassero te? Meglio attendere. Hai un modo per agire, ma se lo reputi troppo rischioso, aspetta che cambino le condizioni ambientali e agisci quando il contesto è più favorevole.]
+
+Tutto chiaro?
+(colour:"red")[[E ora, scopriamo il tuo punteggio]]...
+
+
+:: ti senti comunque molto stanco {"position":"1475,925","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/vrba_legname.png">]
+
+Decidi di prenderti qualche minuto per rifiatare. Sei stanco e affamato, da giorni vai avanti solo con qualche boccone di cibo. Ogni azione sembra richiedere uno sforzo triplicato.
+
+Ti permetti un attimo di pausa, prima di riprendere con il tuo piano. Senza Wetzler sarà tutto più difficile, ma non impossibile. Si tratta di seguire il programma: recuperare una tenaglia, andare al generatore, farlo saltare. Tutto ciò, senza farsi beccare dalle SS. Con un po' di fortuna, puoi farcela.
+
+Mentre ripassi il piano, non puoi fare a meno di pensare a Wetzler. Vi conoscete da poco, ma si è creata subito un'intesa. I suoi sei anni in più si fanno sentire dal punto di vista fisico: nonostante le pessime condizioni sanitarie e alimentari, Wetzler rimane un uomo forte e resistente. Certo, forse non è bello da dire, ma tu hai una marcia in più, per coraggio e intelligenza.
+
+In fondo, ti chiedi ancora se Wetzler sia fondamentale per la fuga.
+
+(colour: "yellow")[[No. Da solo ho meno possibilità di essere scoperto->20.A]].
+
+(colour: "yellow")[[No. Lo conosco da poco. Non so se posso fidarmi->20.B]].
+
+(colour:"yellow")[[Forse sì. Non so cosa mi riserverà il futuro. Potrebbe tornare utile->20.C]].
+
+
+:: trovi una tenaglia {"position":"925,3525","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">]
+
+La tenaglia è parte del piano della fuga, ed adesso è tra le vostre mani.
+
+Ora bisogna solo raggiungere l'edificio con il generatore. È l'ultimo passaggio, certo, ma non è detto che sia facile. Anzi. Le guardie, l'abbaiare del cane lupo... certamente la nottata è stata movimentata, e questo ha messo sotto allarme anche gli addetti alla sicurezza. Rispetto a prima, le SS sembrano essersi moltiplicate. E muoversi in due rende tutto più difficile.
+
+Tu e Wetzler vi ponete una domanda: non sarebbe forse meglio dividersi, in modo da moltiplicare le chance di fuga. Muoversi da soli, prendendo due strade diverse verso la stessa destinazione, potrebbe permettervi di essere più silenziosi. Certo che, però, dividersi adesso, a un passo dalla fine, potrebbe significare anche non ritrovarsi più.
+
+Cosa fate?
+
+(colour:"yellow")[[[Separiamoci e aumentiamo le chance di fuga->11.A]]].
+
+(colour:"yellow")[[[Siamo arrivati fin qui insieme. Rimarremo insieme->11.B]]].
+
+(colour:"yellow")[[[Ragioniamo ancora sui pro e i contro della scelta->11.C]]].
+
+
+:: una per una {"position":"1200,4850","size":"100,100"}
+(enchant:?page,
+	(bg:white) +
+	(color:black)
+)(if:(history: where its name contains "1.A")'s length is 1)[''Cerchi o non cerchi Wetzler?''
+In questo caso, ad esempio, non esiste una scelta giusta. A ben vedere, munirsi del supporto di Wetzler potrebbe essere utile per affrontare le difficoltà della nottata. Dall’altra parte, la mancanza di informazioni sulla fine di Wetzler poteva anche dare adito al peggio. Inoltre, la nottata è breve, e questa è l’unica notte possibile per fuggire.
+Qui la scelta serve più a definire uno stile di pensiero che ad essere valutata come giusta o sbagliata. La scelta di cercare Wetzler può indicare una maggiore predisposizione al lato relazionale, dall’altra parte fuggire autonomamente potrebbe indicare un maggiore orientamento al risultato.](if:(history: where its name contains "1.B")'s length is 1)[''Cerchi o non cerchi Wetzler?''
+In questo caso, ad esempio, non esiste una scelta giusta. A ben vedere, munirsi del supporto di Wetzler potrebbe essere utile per affrontare le difficoltà della nottata. Dall’altra parte, la mancanza di informazioni sulla fine di Wetzler poteva anche dare adito al peggio. Inoltre, la nottata è breve, e questa è l’unica notte possibile per fuggire.
+Qui la scelta serve più a definire uno stile di pensiero che ad essere valutata come giusta o sbagliata. La scelta di cercare Wetzler può indicare una maggiore predisposizione al lato relazionale, dall’altra parte fuggire autonomamente potrebbe indicare un maggiore orientamento al risultato.]
+(if:(history: where its name contains "ti senti comunque molto stanco")'s length is 1)[''Wetzler è fondamentale per fuggire?''
+Mettere in discussione le proprie scelte non è sempre sbagliato. Wetzler è fondamentale per la fuga per una semplice ragione: non sai quello che ti aspetta, potresti non avere tutte le competenze e le conoscenze necessarie per fuggire. In questo caso, l’unione fa la forza. Anche perché mettere in discussione la fiducia verso Wetzler significherebbe aver mal codificato le informazioni in merito al vostro rapporto. È vero che muoversi da solo può essere più efficace, ma il vantaggio non è proporzionale a quello di avere Wetzler in squadra per superare la sfida.](if:(history: where its name contains "Ti senti comunque molto stanco")'s length is 1)[''Senti dei passi. Arriva qualcuno''
+Il tempo per capire cosa fare non c’è, e il rischio è evidente. Non ci sono informazioni che permettano di capire come affrontare il problema. Prendere il tempo per capire come procedere potrebbe essere sensato, ma in questo caso, per mancanza di tempo, anche fatale.]
+
+(if:(history: where its name contains " Trattieni il fiato")'s length is 1)[''Wetzler ti dice che il piano è compromesso''
+Bisogna essere in grado di valutare tutti gli elementi del contesto per capire come affrontare questo problema, e anche valutare il tutto all’interno della relazione con Wetzler. Wetzler sta ponendo un dubbio chiedendoti come affrontarlo: significa che si fida di te. Prolungare il soggiorno ad Auschwitz rimandando la fuga non è un’opzione, soprattutto in vista dell’obiettivo che vi siete prefissati. Andare avanti in maniera acritica con il piano precedente non ha senso: se non si riesce ad avere la tenaglia, non si riesce. Però, modificare il piano cercando di “prendere tempo”, di trovare soluzioni man mano che gli eventi succedono, può essere la soluzione giusta quando non si sa come raggiungere l’obiettivo finale.](if:(history: where its name contains " Sei ancora perso nei tuoi pensieri")'s length is 1)[''Senti dei passi. Arriva qualcuno''
+Il tempo per capire cosa fare non c’è, e il rischio è evidente. Non ci sono informazioni che permettano di capire come affrontare il problema. Prendere il tempo per capire come procedere potrebbe essere sensato, ma in questo caso, per mancanza di tempo, anche fatale.]
+
+(if:(history: where its name contains "una speranza")'s length is 1)[''Trovi una mappa incompleta''
+Leggendo il contesto, prova a pensare. È possibile che qualcuno stia cercando di ingannarmi con una mappa fittizia e per di più mezza rotta? Piuttosto, potrebbe valer la pena seguirla, anche se incompleta. Anzi, tanto meglio farla vedere a Wetzler: ha vissuto nel campo quanto te, potrebbe avere tutte le informazioni necessarie per colmare la lacuna della mappa.](if:(history: where its name contains "noti qualcosa vicino a te")'s length is 1)[''Trovi una mappa incompleta''
+Leggendo il contesto, prova a pensare. È possibile che qualcuno stia cercando di ingannarmi con una mappa fittizia e per di più mezza rotta? Piuttosto, potrebbe valer la pena seguirla, anche se incompleta. Inoltre, la situazione è di estrema crisi e di pericolo: cercare di colmare la lacuna delle informazioni cercando la parte mancante in quel porcile potrebbe essere una scelta poco efficiente.]
+
+(if:(history: where its name contains "nuovo, singolare edificio")'s length is 1)[''Lanciare i sassi alla finestra''
+Il rischio di farsi sentire c’è, ma anche la speranza di mangiare. Ci sono quindi le condizioni per provare a lanciare i sassi contro la finestra, anche perché sia tu sia Wetzler siete stravolti. Lanciare tutti i sassi insieme, però, non permetterebbe di valutare passo passo il livello di rischio, e non lascerebbe ai fuggitivi la possibilità di ulteriori tentativi. Lanciare un sasso per volta è quindi la scelta giusta.](if:(history: where its name contains "Sei in una cucina")'s length is 1)[''Trovi del cibo. Lo condividi?''
+Vista la situazione, anche il cibo avariato è meglio che nessun cibo, soprattutto se non hai vera conoscenza del suo stato. Tenere il cibo per sé potrebbe essere una buona idea nel momento in cui si ha la certezza che il contributo di Wetzler alla fuga sia nullo. Ma non avendola, questa certezza, condividere il cibo con Wetzler è la soluzione migliore, tanto più che rinforzerebbe la fiducia nella coppia di fuggiaschi.]
+
+(if:(history: where its name contains " Osservi il sasso")'s length is 1)[''Chi nascondi, te o Wetzler?''
+Sicuramente non ha senso che non ci entri nessuno nella buca. Per quale motivo entrambi dovrebbero sacrificarsi? Per quale senso morale? A questo punto, meglio che ci entri qualcuno. Chi? Se l’obiettivo è raccontare al mondo ciò che succede nei campi di concentramento, basta che si salvi una persona. Che quella persona sia tu o Wetzler fa poca differenza. Non sapendo però se Wetzler possa o meno tradirti, ma sapendo che tu non lo farai, forse è il caso di preservare Wetzler.](if:(history: where its name contains " Chiami Wetzler sottovoce e gli lanci una patata")'s length is 1)[''Chi nascondi, te o Wetzler?''
+Sicuramente non ha senso che non ci entri nessuno nella buca. Per quale motivo entrambi dovrebbero sacrificarsi? Per quale senso morale? A questo punto, meglio che ci entri qualcuno. Chi? Se l’obiettivo è raccontare al mondo ciò che succede nei campi di concentramento, basta che si salvi una persona. Che quella persona sia tu o Wetzler fa poca differenza. Non sapendo però se Wetzler possa o meno tradirti, ma sapendo che tu non lo farai, forse è il caso di preservare Wetzler.](if:(history: where its name contains "Wetzler, che succede?")'s length is 1)[''Wetzler non si sente bene''
+Wetzler sta male. Non sai se può riprendersi o se il suo malessere possa proseguire. Bisogna mettere sul piatto della bilancia la sua efficacia o il suo possibile ostacolare la missione. In ogni caso, non c’è bisogno di abbandonarlo. Non sai cosa ti aspetta, né in che modo possa tornarti utile. Finché è possibile, conviene viaggiare insieme.]
+
+Ora, (colour:"red")[[proseguiamo con le ultime scelte]].
+
+
+:: una speranza {"position":"925,1550","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_mappa.png">]
+
+Rompi il silenzio indicando con il dito quello che sembra un angolo di strada pieno di sporcizia.
+
+Wetzler, sempre con lo sguardo chinato verso il basso, all'inizio sembra non farci caso. Si gratta con una mano la barbetta pidocchiosa. Poi ti guarda, e segue con gli occhi il tuo indice.
+
+Spazzatura, rottami, pezzi di legno e altre cianfrusaglie alla rinfusa sono sparse per terra. Nel silenzio, si sentono denti di ratti masticare, zampette che si muovono e squittii.
+
+Ma ti ci fiondi, in quella direzione, e inizi a scavare. Wetzler si guarda prima attorno, poi ti segue. Dice:
+
+«Walter, che succede?».
+
+Esci da quel cumulo con un foglio in mano. È una mappa: (link-rerun:"la mappa del campo")[(open-url:"https://encyclopedia.ushmm.org/content/it/map/auschwitz-ii-birkenau-camp-summer-1944")].
+
+L'entusiasmo però dura poco. Ti rendi conto che, oltre a non conoscere la vostra posizione, la cartina, stropicciata e sporca, ha una grossa macchia su un angolo che la invade parzialmente. È possibile riconoscere qualcosa, specie l'edificio della cucina, e a solo leggerne la parola il tuo stomaco brontola. Ma poco altro.
+
+Intanto, Wetzler si sta avvicinando. Cosa fai?
+
+(colour: "yellow")[[La segui, anche se ne capisci poco. Non avete altro->3.1.A]].
+
+(colour: "yellow")[[È illeggibile. Meglio scartarla->3.1.B]].
+
+(colour: "yellow")[[Non so ancora se posso fidarmi di lui, ma devo farla vedere a Wetzler->3.1.C]].
+
+
+:: vi ritroverete al generatore {"position":"1250,3900","size":"100,100"}
+(go-to: (either: "Generatore no Wetzler","Generatore sì Wetzler"))
+
+
+:: È Wetzler {"position":"1350,1475","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+Trattieni il fiato e ti prepari a mettere in atto la tua decisione.
+
+Tuttavia, improvvisamente, una sagoma compare oltre l'angolo. L'uomo si è mosso senza farsi sentire, ed ormai è talmente vicino da riconoscerne i connotati.
+
+(transition:"fade")[«Walter... Walter, sei tu?».]
+
+È la voce di Wetzler. Tiri un sospiro di sollievo, e fai un cenno con la mano per invitarlo nell'ombra che già ti ospita.
+
+«Walter - dice Wetzler, trafelato -, mi sono svegliato prima di te e ne ho approfittato per dare un'occhiata nei dintorni. C'è un problema».
+
+A quell'ultima parola ti sale un groppo in gola.
+
+«Ho sentito delle SS discutere su alcuni furti di attrezzi da lavoro. Hanno deciso di mettere sotto chiave il magazzino. Ora sarà impossibile ottenere una tenaglia. Non possiamo più fare il buco nella rete, e senza buco (colour:"red")[[non possiamo evadere]]».
+
+
+:: È una guardia {"position":"1600,1475","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/11/danene3343_for_an_interactive_and_digital_escape_room_imagine_a_2e9c24e9-adc9-4d8a-9935-de2a3a43da2e-2.png">]
+
+È una guardia. Sta passeggiando per la strada con un lanternino, quasi fischiettando. Con una mano sostiene il calcio del (link-rerun:"Mauser98")[(open-url:"https://it.wikipedia.org/wiki/Mauser_Gewehr_98")], appoggiato sulla spalla. Se qualche superiore lo avesse visto in quell'andatura, si sarebbe beccato una bella strigliata.
+
+Tieni il respiro, cercando di schiacciarti il più possibile contro il muro. La guardia si ferma a pochi passi da te.
+
+Manca davvero poco a scoprirti. Poi si gira...
+
+... e se ne va, fischiettando.
+
+Rimani fermo, ancora impaurito, con il cuore che ti batte forte nel petto. Scivoli per terra, con le spalle al muro, trafitto dalla stanchezza. E mentre cerchi di riprenderti, (colour:"red")[[noti qualcosa vicino a te]].
+
+
+
+
+:: È una tenaglia {"position":"2025,3275","size":"100,100"}
+[<img src="https://backupvrba.wordpress.com/wp-content/uploads/2024/12/vrba_tenaglia.png">]
+
+Il kapò ti consegna la tenaglia.
+
+«Ti auguro ogni bene, ovviamente. Sappi però che la strada che stai scegliendo è problematica e forse non avrà senso».
+
+L'ultima frase ti lascia dubbioso. Chiedi spiegazioni.
+
+«Senti, forse tu non sai cosa succeda fuori di qui. Ma io, grazie al mio ruolo, posso avere qualche informazione in più, non so se mi spiego. In pratica, si dice che la situazione dell'esercito tedesco sia poco felice. Probabilmente i russi sfonderanno a est, mentre l'Inghilterra tiene testa a nord. Queste previsioni dicono che a breve gli Alleati invaderanno la Polonia, e a quel punto verranno a sapere cosa succede qui, ad Auschwitz, e ci libereranno» afferma il kapò annuendo con il capo.
+
+Sembra proprio che sappia quel che dice. E se fosse vero, non avresti bisogno di fuggire proprio adesso. La stanchezza ti assale, ma la felicità per la buona notizia viene subito incrinata dal dubbio. Le sue sono ipotesi, per quanto plausibili. Ma se invece non andasse così?
+
+Cosa decidi di fare?
+
+(colour:"yellow")[[[Forse conviene attendere qualche giorno e vedere cosa succede-> 13.A]]]...
+
+(colour:"yellow")[[[Non mi affiderò a un'ipotesi. Scapperò stanotte-> 13.B]]]!
+
+(colour:"yellow")[[[Questa fuga è maledetta fin dall'inizio,e ora sono solo. Mi arrendo, tanto manca poco-> 13.C]]].
+
+
+:: StoryScript [script]
+window.onload = function() {
+  var audio = new Audio ( 'https://www.dropbox.com/scl/fi/06bsp2qwixl9letc27qst/Arvo-P-rt-F-r-Anna-Maria-Complete-Piano-Music-Full-Album-played-by-Jeroen-van-Veen.mp3?rlkey=2g7hrg83jq2s0jskitdcmbnvj&e=1&st=mkcaia8n&raw=1');
+  audio.loop = true;
+  audio.volume = 0,5;
+  audio.play();
+};
